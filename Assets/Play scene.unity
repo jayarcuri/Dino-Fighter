@@ -1,0 +1,1282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+  m_NavMesh: {fileID: 0}
+--- !u!1 &5087286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 5087287}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5087287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 5087286}
+  m_LocalRotation: {x: 0, y: 0, z: .506363332, w: .862320304}
+  m_LocalPosition: {x: -.0045473855, y: 2.28983487e-18, z: -1.68940318e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1081165975}
+  m_Father: {fileID: 1329904957}
+  m_RootOrder: 0
+--- !u!1 &6955864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 6955865}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:LegL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6955865
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 6955864}
+  m_LocalRotation: {x: .789884627, y: .603828549, z: -.0381889604, w: -.100075357}
+  m_LocalPosition: {x: .000395810668, y: -.00123645552, z: .00754685048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1434699364}
+  m_Father: {fileID: 2102069754}
+  m_RootOrder: 1
+--- !u!1 &209080581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 209080582}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:HeelR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209080582
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 209080581}
+  m_LocalRotation: {x: 0, y: -0, z: -.412600487, w: .910912097}
+  m_LocalPosition: {x: -.00707560638, y: -3.29335054e-18, z: -3.28006188e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1065403679}
+  m_Father: {fileID: 1697914270}
+  m_RootOrder: 0
+--- !u!1001 &517466983
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.261155605
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.08383644
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -.414811611
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.382683486
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .923879564
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 874c38809399d3f4abecb6c44f907cb7, type: 2}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+      propertyPath: m_WrapMode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_RootGameObject: {fileID: 2048784181}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &726037553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 726037554}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:RWrist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &726037554
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 726037553}
+  m_LocalRotation: {x: .730111599, y: .683327913, z: -6.68121589e-17, w: -2.13360932e-17}
+  m_LocalPosition: {x: -.0065911524, y: 1.82903781e-09, z: -4.440892e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2008650618}
+  m_Father: {fileID: 1595787761}
+  m_RootOrder: 0
+--- !u!1 &731880752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 731880753}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:ikHandle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &731880753
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 731880752}
+  m_LocalRotation: {x: -.285213143, y: -.648916304, z: .294932663, w: .640761912}
+  m_LocalPosition: {x: -.00669207517, y: -.0184875727, z: -.000990781351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1168245705}
+  m_RootOrder: 1
+--- !u!1 &825142150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 825142151}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &825142151
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 825142150}
+  m_LocalRotation: {x: 0, y: -0, z: -.0321927294, w: .999481678}
+  m_LocalPosition: {x: -.00963715743, y: 9.89372016e-19, z: -1.84561614e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2016503870}
+  m_Father: {fileID: 903488115}
+  m_RootOrder: 0
+--- !u!1 &903488114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 903488115}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:TailJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &903488115
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 903488114}
+  m_LocalRotation: {x: .318212956, y: .948019266, z: -3.85645134e-17, w: -7.75343586e-17}
+  m_LocalPosition: {x: .00673045637, y: -.00300662243, z: -2.50351589e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 825142151}
+  m_Father: {fileID: 2102069754}
+  m_RootOrder: 3
+--- !u!1 &1065403678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1065403679}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:ToeR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1065403679
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1065403678}
+  m_LocalRotation: {x: 0, y: -0, z: -.0877134278, w: .996145785}
+  m_LocalPosition: {x: -.0079033142, y: 2.08166812e-19, z: -7.36387622e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 209080582}
+  m_RootOrder: 0
+--- !u!1 &1081165974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1081165975}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Head2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1081165975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1081165974}
+  m_LocalRotation: {x: .0917003825, y: .701135576, z: -.0917003825, w: .701135576}
+  m_LocalPosition: {x: -.00859393738, y: 1.52655665e-18, z: -1.21429897e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5087287}
+  m_RootOrder: 0
+--- !u!1 &1168245704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1168245705}
+  m_Layer: 0
+  m_Name: group1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1168245705
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1168245704}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: .0228585023}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2102069754}
+  - {fileID: 731880753}
+  - {fileID: 1675942348}
+  m_Father: {fileID: 2048784182}
+  m_RootOrder: 1
+--- !u!1 &1232669994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1232669995}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:ToeL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1232669995
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1232669994}
+  m_LocalRotation: {x: 0, y: -0, z: -.0877118334, w: .996145904}
+  m_LocalPosition: {x: -.00790330768, y: 1.110223e-18, z: 7.03700642e-20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1423815830}
+  m_RootOrder: 0
+--- !u!1 &1329904956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1329904957}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Neck2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1329904957
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1329904956}
+  m_LocalRotation: {x: 0, y: 0, z: .315838158, w: .948813081}
+  m_LocalPosition: {x: -.00748710986, y: 9.65005239e-19, z: 1.93536999e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5087287}
+  m_Father: {fileID: 1868342412}
+  m_RootOrder: 0
+--- !u!1 &1423815829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1423815830}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:HeelL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423815830
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1423815829}
+  m_LocalRotation: {x: 0, y: -0, z: -.412601173, w: .910911798}
+  m_LocalPosition: {x: -.00707559334, y: -1.52655665e-18, z: -2.02274301e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1232669995}
+  m_Father: {fileID: 1434699364}
+  m_RootOrder: 0
+--- !u!1 &1434699363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1434699364}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:KneeL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1434699364
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1434699363}
+  m_LocalRotation: {x: .95374012, y: .281313151, z: -.00876319036, w: .105669007}
+  m_LocalPosition: {x: -.0122337593, y: -2.56739078e-18, z: -3.74700244e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1423815830}
+  m_Father: {fileID: 6955865}
+  m_RootOrder: 0
+--- !u!1 &1486648990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1486648991}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:LegR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1486648991
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1486648990}
+  m_LocalRotation: {x: .509491146, y: .855151534, z: .0597827658, w: .0745700747}
+  m_LocalPosition: {x: .000395811308, y: -.00123645156, z: -.00754684955}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1697914270}
+  m_Father: {fileID: 2102069754}
+  m_RootOrder: 2
+--- !u!1 &1526026174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1526026175}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:LHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526026175
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1526026174}
+  m_LocalRotation: {x: -.193567425, y: .981086969, z: -7.1926835e-17, w: -4.82216651e-17}
+  m_LocalPosition: {x: -.00344773801, y: 1.56125109e-18, z: 6.66699367e-20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1641811757}
+  m_RootOrder: 0
+--- !u!1 &1532436802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1532436803}
+  - 137: {fileID: 1532436804}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1532436803
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1532436802}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2048784182}
+  m_RootOrder: 0
+--- !u!137 &1532436804
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: c13a5887c35766443b46bc05b4754a50,
+    type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1532436802}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 874c38809399d3f4abecb6c44f907cb7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_Bones:
+  - {fileID: 2102069754}
+  - {fileID: 1597778411}
+  - {fileID: 1868342412}
+  - {fileID: 1329904957}
+  - {fileID: 5087287}
+  - {fileID: 1081165975}
+  - {fileID: 1680165965}
+  - {fileID: 1615106899}
+  - {fileID: 1641811757}
+  - {fileID: 1526026175}
+  - {fileID: 1642087726}
+  - {fileID: 1595787761}
+  - {fileID: 726037554}
+  - {fileID: 2008650618}
+  - {fileID: 903488115}
+  - {fileID: 825142151}
+  - {fileID: 2016503870}
+  - {fileID: 1896462735}
+  - {fileID: 6955865}
+  - {fileID: 1434699364}
+  - {fileID: 1423815830}
+  - {fileID: 1232669995}
+  - {fileID: 1486648991}
+  - {fileID: 1697914270}
+  - {fileID: 209080582}
+  - {fileID: 1065403679}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2102069754}
+  m_AABB:
+    m_Center: {x: 4.93470579e-05, y: -.00123501662, z: 1.3072975e-05}
+    m_Extent: {x: .0345423669, y: .0269051194, z: .0134044429}
+  m_DirtyAABB: 0
+--- !u!1 &1580950752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1580950754}
+  - 108: {fileID: 1580950753}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1580950753
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580950752}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: .5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
+--- !u!4 &1580950754
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580950752}
+  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!1 &1595787760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1595787761}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:RElbow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1595787761
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1595787760}
+  m_LocalRotation: {x: .440185636, y: .783834875, z: .0110884253, w: -.437854499}
+  m_LocalPosition: {x: -.000447266677, y: -.00289289956, z: .00442577247}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 726037554}
+  m_Father: {fileID: 1642087726}
+  m_RootOrder: 0
+--- !u!1 &1597778410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1597778411}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:ChestJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1597778411
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1597778410}
+  m_LocalRotation: {x: 0, y: 0, z: -.736514151, w: .676422119}
+  m_LocalPosition: {x: -.0104508568, y: 1.110223e-18, z: 2.14314844e-34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1680165965}
+  - {fileID: 1868342412}
+  - {fileID: 1642087726}
+  m_Father: {fileID: 2102069754}
+  m_RootOrder: 0
+--- !u!1 &1615106898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1615106899}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:LElbow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1615106899
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1615106898}
+  m_LocalRotation: {x: .440185636, y: .783834875, z: .0110884253, w: -.437854499}
+  m_LocalPosition: {x: -.00530625274, y: -1.3877787e-18, z: 5.551115e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1641811757}
+  m_Father: {fileID: 1680165965}
+  m_RootOrder: 0
+--- !u!1 &1641811756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1641811757}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:LWrist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641811757
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1641811756}
+  m_LocalRotation: {x: .730111599, y: .683327913, z: 4.18417666e-17, w: 4.4706442e-17}
+  m_LocalPosition: {x: -.00659114867, y: -3.77302358e-19, z: -1.32333864e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1526026175}
+  m_Father: {fileID: 1615106899}
+  m_RootOrder: 0
+--- !u!1 &1642087725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1642087726}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:RSHoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642087726
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1642087725}
+  m_LocalRotation: {x: -.432248414, y: .788239658, z: .37741816, w: .222250015}
+  m_LocalPosition: {x: .000240560548, y: .000263572845, z: -.00563120004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1595787761}
+  m_Father: {fileID: 1597778411}
+  m_RootOrder: 2
+--- !u!1 &1649167308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1649167310}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1649167310
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649167308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.299063683, y: 1.11654401, z: -.274897933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!1 &1675942347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1675942348}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:ikHandle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675942348
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1675942347}
+  m_LocalRotation: {x: -.362879306, y: -.602881372, z: .365682721, w: .609203398}
+  m_LocalPosition: {x: .00669207377, y: -.0174143687, z: .0092318505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1168245705}
+  m_RootOrder: 2
+--- !u!1 &1680165964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1680165965}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:LShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1680165965
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1680165964}
+  m_LocalRotation: {x: -.432248414, y: .788239658, z: .37741816, w: .222250015}
+  m_LocalPosition: {x: .000240557623, y: .000263574533, z: .0056312033}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1615106899}
+  m_Father: {fileID: 1597778411}
+  m_RootOrder: 0
+--- !u!1 &1697914269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1697914270}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:KneeR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697914270
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1697914269}
+  m_LocalRotation: {x: .848146141, y: .520161092, z: .0185746402, w: -.0986694023}
+  m_LocalPosition: {x: -.012233749, y: 4.54497531e-18, z: -6.38378209e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 209080582}
+  m_Father: {fileID: 1486648991}
+  m_RootOrder: 0
+--- !u!1 &1868342411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1868342412}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1868342412
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1868342411}
+  m_LocalRotation: {x: 0, y: 0, z: .288402289, w: .957509339}
+  m_LocalPosition: {x: -.00656660367, y: 1.83880679e-18, z: 4.82224325e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1329904957}
+  m_Father: {fileID: 1597778411}
+  m_RootOrder: 1
+--- !u!1 &1896462734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1896462735}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Tail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1896462735
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 1896462734}
+  m_LocalRotation: {x: .123998389, y: .99228245, z: -5.3167067e-17, w: -6.8352495e-17}
+  m_LocalPosition: {x: -.0112891849, y: .000299177715, z: -2.3502205e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2016503870}
+  m_RootOrder: 0
+--- !u!1 &1924535763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1924535768}
+  - 20: {fileID: 1924535767}
+  - 92: {fileID: 1924535766}
+  - 124: {fileID: 1924535765}
+  - 81: {fileID: 1924535764}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1924535764
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1924535763}
+  m_Enabled: 1
+--- !u!124 &1924535765
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1924535763}
+  m_Enabled: 1
+--- !u!92 &1924535766
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1924535763}
+  m_Enabled: 1
+--- !u!20 &1924535767
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1924535763}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &1924535768
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1924535763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1 &2008650617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2008650618}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:RHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2008650618
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 2008650617}
+  m_LocalRotation: {x: -.193567425, y: .981086969, z: -1.14907444e-16, w: -2.66066734e-16}
+  m_LocalPosition: {x: -.00344776083, y: -1.06841442e-08, z: -2.220446e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 726037554}
+  m_RootOrder: 0
+--- !u!1 &2016503869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2016503870}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:Tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016503870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 2016503869}
+  m_LocalRotation: {x: 0, y: -0, z: -.0259311218, w: .99966377}
+  m_LocalPosition: {x: -.00742816506, y: -2.4980017e-18, z: -1.48194049e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1896462735}
+  m_Father: {fileID: 825142151}
+  m_RootOrder: 0
+--- !u!1 &2048784181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2048784182}
+  - 111: {fileID: 2048784183}
+  - 114: {fileID: 2048784184}
+  m_Layer: 0
+  m_Name: GamJam_Herodino_allanim_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048784182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 2048784181}
+  m_LocalRotation: {x: 0, y: -.382683486, z: 0, w: .923879564}
+  m_LocalPosition: {x: -.261155605, y: 1.08383644, z: -.414811611}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 1532436803}
+  - {fileID: 1168245705}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!111 &2048784183
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: c13a5887c35766443b46bc05b4754a50,
+    type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 2048784181}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  - {fileID: 7400002, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_WrapMode: 1
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 1
+  m_CullingType: 1
+--- !u!114 &2048784184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2048784181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69caee548988254e9a0d35b98d675a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2102069753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2102069754}
+  m_Layer: 0
+  m_Name: Gamjam_Herodino_rig_8_RigDone_:BodyJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2102069754
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: c13a5887c35766443b46bc05b4754a50, type: 3}
+  m_PrefabInternal: {fileID: 517466983}
+  m_GameObject: {fileID: 2102069753}
+  m_LocalRotation: {x: -.0408519581, y: -.705925763, z: .0408519581, w: .705925763}
+  m_LocalPosition: {x: 6.16297568e-35, y: 5.12656734e-05, z: .00506536104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1597778411}
+  - {fileID: 6955865}
+  - {fileID: 1486648991}
+  - {fileID: 903488115}
+  m_Father: {fileID: 1168245705}
+  m_RootOrder: 0

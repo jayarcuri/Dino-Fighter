@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: 7c7891e70e8a445a38a679370e494ab6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gamjam_Herodino_rig_8_RigDone_:BodyJ
+    100004: Gamjam_Herodino_rig_8_RigDone_:ChestJ
+    100006: Gamjam_Herodino_rig_8_RigDone_:Head
+    100008: Gamjam_Herodino_rig_8_RigDone_:Head2
+    100010: Gamjam_Herodino_rig_8_RigDone_:HeelL
+    100012: Gamjam_Herodino_rig_8_RigDone_:HeelR
+    100014: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+    100016: Gamjam_Herodino_rig_8_RigDone_:ikHandle1
+    100018: Gamjam_Herodino_rig_8_RigDone_:ikHandle2
+    100020: Gamjam_Herodino_rig_8_RigDone_:KneeL
+    100022: Gamjam_Herodino_rig_8_RigDone_:KneeR
+    100024: Gamjam_Herodino_rig_8_RigDone_:LegL
+    100026: Gamjam_Herodino_rig_8_RigDone_:LegR
+    100028: Gamjam_Herodino_rig_8_RigDone_:LElbow
+    100030: Gamjam_Herodino_rig_8_RigDone_:LHand
+    100032: Gamjam_Herodino_rig_8_RigDone_:LShoulder
+    100034: Gamjam_Herodino_rig_8_RigDone_:LWrist
+    100036: Gamjam_Herodino_rig_8_RigDone_:Neck1
+    100038: Gamjam_Herodino_rig_8_RigDone_:Neck2
+    100040: Gamjam_Herodino_rig_8_RigDone_:RElbow
+    100042: Gamjam_Herodino_rig_8_RigDone_:RHand
+    100044: Gamjam_Herodino_rig_8_RigDone_:RSHoulder
+    100046: Gamjam_Herodino_rig_8_RigDone_:RWrist
+    100048: Gamjam_Herodino_rig_8_RigDone_:Tail2
+    100050: Gamjam_Herodino_rig_8_RigDone_:Tail3
+    100052: Gamjam_Herodino_rig_8_RigDone_:Tail4
+    100054: Gamjam_Herodino_rig_8_RigDone_:TailJ
+    100056: Gamjam_Herodino_rig_8_RigDone_:ToeL
+    100058: Gamjam_Herodino_rig_8_RigDone_:ToeR
+    100060: group1
+    400000: //RootNode
+    400002: Gamjam_Herodino_rig_8_RigDone_:BodyJ
+    400004: Gamjam_Herodino_rig_8_RigDone_:ChestJ
+    400006: Gamjam_Herodino_rig_8_RigDone_:Head
+    400008: Gamjam_Herodino_rig_8_RigDone_:Head2
+    400010: Gamjam_Herodino_rig_8_RigDone_:HeelL
+    400012: Gamjam_Herodino_rig_8_RigDone_:HeelR
+    400014: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+    400016: Gamjam_Herodino_rig_8_RigDone_:ikHandle1
+    400018: Gamjam_Herodino_rig_8_RigDone_:ikHandle2
+    400020: Gamjam_Herodino_rig_8_RigDone_:KneeL
+    400022: Gamjam_Herodino_rig_8_RigDone_:KneeR
+    400024: Gamjam_Herodino_rig_8_RigDone_:LegL
+    400026: Gamjam_Herodino_rig_8_RigDone_:LegR
+    400028: Gamjam_Herodino_rig_8_RigDone_:LElbow
+    400030: Gamjam_Herodino_rig_8_RigDone_:LHand
+    400032: Gamjam_Herodino_rig_8_RigDone_:LShoulder
+    400034: Gamjam_Herodino_rig_8_RigDone_:LWrist
+    400036: Gamjam_Herodino_rig_8_RigDone_:Neck1
+    400038: Gamjam_Herodino_rig_8_RigDone_:Neck2
+    400040: Gamjam_Herodino_rig_8_RigDone_:RElbow
+    400042: Gamjam_Herodino_rig_8_RigDone_:RHand
+    400044: Gamjam_Herodino_rig_8_RigDone_:RSHoulder
+    400046: Gamjam_Herodino_rig_8_RigDone_:RWrist
+    400048: Gamjam_Herodino_rig_8_RigDone_:Tail2
+    400050: Gamjam_Herodino_rig_8_RigDone_:Tail3
+    400052: Gamjam_Herodino_rig_8_RigDone_:Tail4
+    400054: Gamjam_Herodino_rig_8_RigDone_:TailJ
+    400056: Gamjam_Herodino_rig_8_RigDone_:ToeL
+    400058: Gamjam_Herodino_rig_8_RigDone_:ToeR
+    400060: group1
+    4300000: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+    7400000: walk
+    7400002: idle
+    7400004: death
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow/Gamjam_Herodino_rig_8_RigDone_:LWrist
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow/Gamjam_Herodino_rig_8_RigDone_:LWrist/Gamjam_Herodino_rig_8_RigDone_:LHand
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2/Gamjam_Herodino_rig_8_RigDone_:Head
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2/Gamjam_Herodino_rig_8_RigDone_:Head/Gamjam_Herodino_rig_8_RigDone_:Head2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow/Gamjam_Herodino_rig_8_RigDone_:RWrist
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow/Gamjam_Herodino_rig_8_RigDone_:RWrist/Gamjam_Herodino_rig_8_RigDone_:RHand
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL/Gamjam_Herodino_rig_8_RigDone_:HeelL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL/Gamjam_Herodino_rig_8_RigDone_:HeelL/Gamjam_Herodino_rig_8_RigDone_:ToeL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR/Gamjam_Herodino_rig_8_RigDone_:HeelR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR/Gamjam_Herodino_rig_8_RigDone_:HeelR/Gamjam_Herodino_rig_8_RigDone_:ToeR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2/Gamjam_Herodino_rig_8_RigDone_:Tail3
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2/Gamjam_Herodino_rig_8_RigDone_:Tail3/Gamjam_Herodino_rig_8_RigDone_:Tail4
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:ikHandle1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:ikHandle2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 88
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow/Gamjam_Herodino_rig_8_RigDone_:LWrist
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow/Gamjam_Herodino_rig_8_RigDone_:LWrist/Gamjam_Herodino_rig_8_RigDone_:LHand
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2/Gamjam_Herodino_rig_8_RigDone_:Head
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2/Gamjam_Herodino_rig_8_RigDone_:Head/Gamjam_Herodino_rig_8_RigDone_:Head2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow/Gamjam_Herodino_rig_8_RigDone_:RWrist
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow/Gamjam_Herodino_rig_8_RigDone_:RWrist/Gamjam_Herodino_rig_8_RigDone_:RHand
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL/Gamjam_Herodino_rig_8_RigDone_:HeelL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL/Gamjam_Herodino_rig_8_RigDone_:HeelL/Gamjam_Herodino_rig_8_RigDone_:ToeL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR/Gamjam_Herodino_rig_8_RigDone_:HeelR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR/Gamjam_Herodino_rig_8_RigDone_:HeelR/Gamjam_Herodino_rig_8_RigDone_:ToeR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2/Gamjam_Herodino_rig_8_RigDone_:Tail3
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2/Gamjam_Herodino_rig_8_RigDone_:Tail3/Gamjam_Herodino_rig_8_RigDone_:Tail4
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:ikHandle1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:ikHandle2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 89
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gamjam_Herodino_rig_8_RigDone_:Herodino_Mesh
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow/Gamjam_Herodino_rig_8_RigDone_:LWrist
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:LShoulder/Gamjam_Herodino_rig_8_RigDone_:LElbow/Gamjam_Herodino_rig_8_RigDone_:LWrist/Gamjam_Herodino_rig_8_RigDone_:LHand
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2/Gamjam_Herodino_rig_8_RigDone_:Head
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:Neck1/Gamjam_Herodino_rig_8_RigDone_:Neck2/Gamjam_Herodino_rig_8_RigDone_:Head/Gamjam_Herodino_rig_8_RigDone_:Head2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow/Gamjam_Herodino_rig_8_RigDone_:RWrist
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:ChestJ/Gamjam_Herodino_rig_8_RigDone_:RSHoulder/Gamjam_Herodino_rig_8_RigDone_:RElbow/Gamjam_Herodino_rig_8_RigDone_:RWrist/Gamjam_Herodino_rig_8_RigDone_:RHand
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL/Gamjam_Herodino_rig_8_RigDone_:HeelL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegL/Gamjam_Herodino_rig_8_RigDone_:KneeL/Gamjam_Herodino_rig_8_RigDone_:HeelL/Gamjam_Herodino_rig_8_RigDone_:ToeL
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR/Gamjam_Herodino_rig_8_RigDone_:HeelR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:LegR/Gamjam_Herodino_rig_8_RigDone_:KneeR/Gamjam_Herodino_rig_8_RigDone_:HeelR/Gamjam_Herodino_rig_8_RigDone_:ToeR
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2/Gamjam_Herodino_rig_8_RigDone_:Tail3
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:BodyJ/Gamjam_Herodino_rig_8_RigDone_:TailJ/Gamjam_Herodino_rig_8_RigDone_:Tail2/Gamjam_Herodino_rig_8_RigDone_:Tail3/Gamjam_Herodino_rig_8_RigDone_:Tail4
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:ikHandle1
+        weight: 1
+      - path: group1/Gamjam_Herodino_rig_8_RigDone_:ikHandle2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
