@@ -26,7 +26,7 @@ public class ToolTipController : MonoBehaviour {
 	}
 
 	void Update(){
-		if (MouseCood != null) {
+		//if (MouseCood != null) {
 			if (Input.mousePosition != MouseCood){
 				foreach(GameObject obj in frameDataArray){
 					RectTransform temp = obj.GetComponent<RectTransform>();
@@ -35,7 +35,7 @@ public class ToolTipController : MonoBehaviour {
 					obj.GetComponent<RawImage>().color = Color.red;
 				}
 				gameObject.SetActive (false);
-			}
+			//}
 		}
 	}
 	

@@ -2,19 +2,12 @@
 using System.Collections;
 
 public class HitboxScript : MonoBehaviour {
-/*	int priority = 0;
-	float range = 0; 
-	int hitstun = 0; 
-	int blockstun = 0; 
-	int damage = 0; 
-	float knockback =0;*/
 	public FrankController myDad;
 	public FrankController enemy;
 	private int playerID;
 	private bool trigger;
 	private bool armed;
 	private HitClass thisMove;
-	private Collider thisBox;
 	private InputPanel2 controlPanel;
 	
 	public void SetHitBox(int inputPriority, float inputRange, int inputHitstun, 
@@ -65,7 +58,6 @@ public class HitboxScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		armed = false;
-		thisBox = GetComponent<Collider> ();
 		myDad = GetComponentInParent<FrankController> ();
 		playerID = myDad.GetPlayerID();
 		controlPanel = FindObjectOfType<InputPanel2> ();
