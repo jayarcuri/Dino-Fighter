@@ -1,3 +1,9 @@
 #Ignores the project files specific to your machine.
 library/
 temp/
+#ignores other junk we don't need to share
+*.unityproj
+*.csproj
+*.app
+*.exe
+*.sln
