@@ -1,0 +1,3 @@
+#Ignores the project files specific to your machine.
+library/
+temp/
