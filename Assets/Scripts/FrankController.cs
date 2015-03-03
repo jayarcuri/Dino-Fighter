@@ -20,7 +20,6 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 	public float walkSpeed,forwardDash, backDash;
 	public HitboxScript myLimb;
 	public GameObject myDino;
-	public int direction;
 	public FrankController opponent;
 	public GameObject fireball;
 	private InputPanel2 iP2;
@@ -74,12 +73,12 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 				
 
 				case "Hit":
-					transform.Translate (Vector3.right * -direction * knockback);
+					transform.Translate (Vector3.right * knockback);
 					break;
 
 				case "Light Attack":
 					if (moveCount == 0)
-						myLimb.SetHitBox (1, .5f, 1, 1, 5, .4f);
+						myLimb.SetHitBox (moveQueue [0]);
 					if (moveCount == 1)
 						myLimb.ClearBox ();
 					moveCount++;
@@ -89,7 +88,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 				case "Medium Attack":
 					if (moveCount == 0)
-						myLimb.SetHitBox (0, .8f, 0, 0, 7, .8f);
+						myLimb.SetHitBox (moveQueue [0]);
 					if (moveCount == 2)
 						myLimb.ClearBox ();
 					moveCount++;
@@ -99,10 +98,10 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 				case "Heavy Attack":
 					if (moveCount < 3) {
-						transform.Translate (Vector3.right * direction * .3f);
+						transform.Translate (Vector3.right * .3f);
 					}	
 					if (moveCount == 2)
-				myLimb.SetHitBox (0, .4f, 1, 0, 9, .4f);
+				myLimb.SetHitBox (moveQueue [0]);;
 					if (moveCount == 3)
 						myLimb.ClearBox ();
 					moveCount++;
@@ -203,13 +202,13 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 					if (jumpFrames <= 3)
 						transform.Translate (Vector3.down * jumpFactor);
 					if (jumpDirection == "forward")
-						gameObject.transform.Translate (Vector3.right * direction * jumpFactor);
+						gameObject.transform.Translate (Vector3.right * jumpFactor);
 					if (jumpDirection == "back")
-						gameObject.transform.Translate (Vector3.right * -direction * jumpFactor);
+						gameObject.transform.Translate (Vector3.right * jumpFactor);
 					jumpFrames--;
 					
 					if(moveCount == 0)
-					myLimb.SetHitBox (1, 0.6f, -1, -1, 18, -1);
+					myLimb.SetHitBox (moveQueue [0]);;
 					if(moveCount == 2)
 					myLimb.ClearBox();
 			
@@ -228,7 +227,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 					if (moveCount == 2) {
 						GameObject temp = (GameObject)Instantiate (fireball, transform.position, transform.localRotation);
 						myBall = temp.GetComponent<FireballController> ();
-						myBall.myTarget (opponent, direction);
+						myBall.myTarget (opponent);
 					}
 					moveCount++;
 					if (moveCount == 9)
@@ -239,20 +238,20 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 				case "Dino-Punch":
 					if (moveCount == 0) {
 						invuln = true;
-				myLimb.SetHitBox (1, 0.4f, 3, 3, 15, -1);
+				myLimb.SetHitBox (moveQueue [0]);
 					}
-					if (moveCount == 3)
-					//	myBox.invuln = false;
-					// myLimb.Clear();
+					if (moveCount == 3){
+						invuln = false;
+				 		myLimb.ClearBox();}
 						moveCount++;
 					if (moveCount == 8)
 						moveCount = 0;
 					break;
 			
 				case "Throw":
-					if (moveCount == 0) {
-				myLimb.SetHitBox (1, 0.6f, -1, -1, 18, -1);
-						hasThrown = true;
+			if (moveCount == 0) {
+				myLimb.SetHitBox (moveQueue [0]);
+				hasThrown = true;
 					}
 					if (moveCount == 1)
 						myLimb.ClearBox ();

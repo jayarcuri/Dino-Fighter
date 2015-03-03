@@ -12,12 +12,13 @@ public class MoveClass
 	public int dmg;
 	public float kB;
 	public float range;
+	public int initialFrames;
 	public int playerID { get; set; }//ID for player who started move
 	
 	public MoveClass(string name, int frames, int[] activeFrames, int hitAdv, int blockAdv, 
 	                 int priority, float range, int damage, float knockBack/*, int pID*/){
 		this.name = name;
-		this.frames = frames;
+		this.frames = initialFrames = frames;
 		this.activeFrames = activeFrames;
 		hitStun = hitAdv;
 		bStun = blockAdv;

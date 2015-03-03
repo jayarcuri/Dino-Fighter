@@ -5,11 +5,8 @@ public class FireballController : MonoBehaviour {
 	public float speed;
 	private FrankController target;
 	InputPanel2 controlPanel;
-	private int direction;
-
-	public void myTarget(FrankController trgt, int moveDirection){
+	public void myTarget(FrankController trgt){
 		target = trgt;
-		direction = moveDirection;
 	}
 
 	void OnTriggerStay(Collider other){
@@ -33,7 +30,7 @@ void Start(){
 		if (transform.position.x > 12 || transform.position.x < -12)
 			Destroy (this);
 		else {
-			transform.Translate(Vector3.right * direction * speed);
+			transform.Translate(Vector3.right * speed);
 		}
 	}
 }

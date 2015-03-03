@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RexController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/FrankController.cs" Line="345" Column="1" />
+      <File FileName="Assets/Scripts/InputPanel2.cs" Line="198" Column="12" />
+      <File FileName="Assets/Scripts/HitboxScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HitClass.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ToolTipController.cs" Line="112" Column="38" />
+      <File FileName="Assets/Scripts/SubmitMoveController.cs" Line="18" Column="51" />
+      <File FileName="Assets/Scripts/MoveDictionary.cs" Line="36" Column="44" />
+      <File FileName="Assets/RexController.cs" Line="24" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

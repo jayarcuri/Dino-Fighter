@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 60783d6303b674fa1bedbf23cdf7776c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Fighter_Frank_UVModel_Draft1_Done:Frank_Mesh
+    100002: Frank_JT_Body
+    100004: Frank_JT_chest
+    100006: Frank_JT_Head
+    100008: Frank_JT_LArm_Elbow
+    100010: Frank_JT_LArm_Finger_Base
+    100012: Frank_JT_LArm_Finger_End
+    100014: Frank_JT_LArm_Finger_Mid
+    100016: Frank_JT_LArm_Shoulder
+    100018: Frank_JT_LArm_Wrist
+    100020: Frank_JT_LLeg_Foot
+    100022: Frank_JT_LLeg_Foot1
+    100024: Frank_JT_LLeg_Knee
+    100026: Frank_JT_LLeg_Knee1
+    100028: Frank_JT_LLeg_LToe_base
+    100030: Frank_JT_LLeg_LToe_base1
+    100032: Frank_JT_LLeg_LToe_end
+    100034: Frank_JT_LLeg_LToe_end1
+    100036: Frank_JT_LLeg_RToe_base
+    100038: Frank_JT_LLeg_RToe_base1
+    100040: Frank_JT_LLeg_RToe_end
+    100042: Frank_JT_LLeg_RToe_end1
+    100044: Frank_JT_LLeg_Thigh
+    100046: Frank_JT_LLeg_Thigh1
+    100048: Frank_JT_LowerJaw
+    100050: Frank_JT_LowerJaw_End
+    100052: Frank_JT_Neck
+    100054: Frank_JT_RArm_Elbow
+    100056: Frank_JT_RArm_Finger_Base
+    100058: Frank_JT_RArm_Finger_End
+    100060: Frank_JT_RArm_Finger_Mid
+    100062: Frank_JT_RArm_Shoulder
+    100064: Frank_JT_RArm_Wrist
+    100066: Frank_JT_TailBase
+    100068: Frank_JT_TailBase 1
+    100070: Frank_JT_TailMid
+    100072: Frank_JT_UpperJaw
+    100074: Frank_JT_UpperJaw_End
+    100076: //RootNode
+    400000: Fighter_Frank_UVModel_Draft1_Done:Frank_Mesh
+    400002: Frank_JT_Body
+    400004: Frank_JT_chest
+    400006: Frank_JT_Head
+    400008: Frank_JT_LArm_Elbow
+    400010: Frank_JT_LArm_Finger_Base
+    400012: Frank_JT_LArm_Finger_End
+    400014: Frank_JT_LArm_Finger_Mid
+    400016: Frank_JT_LArm_Shoulder
+    400018: Frank_JT_LArm_Wrist
+    400020: Frank_JT_LLeg_Foot
+    400022: Frank_JT_LLeg_Foot1
+    400024: Frank_JT_LLeg_Knee
+    400026: Frank_JT_LLeg_Knee1
+    400028: Frank_JT_LLeg_LToe_base
+    400030: Frank_JT_LLeg_LToe_base1
+    400032: Frank_JT_LLeg_LToe_end
+    400034: Frank_JT_LLeg_LToe_end1
+    400036: Frank_JT_LLeg_RToe_base
+    400038: Frank_JT_LLeg_RToe_base1
+    400040: Frank_JT_LLeg_RToe_end
+    400042: Frank_JT_LLeg_RToe_end1
+    400044: Frank_JT_LLeg_Thigh
+    400046: Frank_JT_LLeg_Thigh1
+    400048: Frank_JT_LowerJaw
+    400050: Frank_JT_LowerJaw_End
+    400052: Frank_JT_Neck
+    400054: Frank_JT_RArm_Elbow
+    400056: Frank_JT_RArm_Finger_Base
+    400058: Frank_JT_RArm_Finger_End
+    400060: Frank_JT_RArm_Finger_Mid
+    400062: Frank_JT_RArm_Shoulder
+    400064: Frank_JT_RArm_Wrist
+    400066: Frank_JT_TailBase
+    400068: Frank_JT_TailBase 1
+    400070: Frank_JT_TailMid
+    400072: Frank_JT_UpperJaw
+    400074: Frank_JT_UpperJaw_End
+    400076: //RootNode
+    4300000: Fighter_Frank_UVModel_Draft1_Done:Frank_Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Fighter_Frank_UVModel_Draft1_Done:Frank_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

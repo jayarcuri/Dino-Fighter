@@ -15,7 +15,7 @@ public class InputPanel2 : MonoBehaviour {
 	private Text[] buttonArrayText;
 	private Image[] buttonArrayImage;
 	private MoveClass[] moveArray;
-	public FrankController[] players; //replacement for character variables
+	//public RexController[] players; //replacement for character variables
 	private bool[] airAttackOK;
 	private Queue HitQueue;
 	public Text turnBox;
@@ -126,7 +126,9 @@ public class InputPanel2 : MonoBehaviour {
 		}
 		
 		//The submit button is only accessable if all buttons are set
-		takeTurnButton.interactable = false;
+		takeTurnButton.interactable = (buttonArrayText [0].text != "_" &&
+		                               buttonArrayText [1].text != "_" && 
+		                               buttonArrayText [2].text != "_");
 	}
 	public void endGame(){
 		mySong.Play ();

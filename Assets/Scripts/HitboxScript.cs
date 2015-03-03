@@ -19,6 +19,14 @@ public class HitboxScript : MonoBehaviour {
 		armed = true;
 		}
 
+	public void SetHitBox(MoveClass move){
+		thisMove = new HitClass(move.priority, move.range, move.hitStun, 
+		                       move.bStun, move.dmg, move.kB, playerID);
+		transform.localScale = new Vector3 (thisMove.range, 1f, .5f);
+		transform.localPosition = (new Vector3(1-(move.range/2), 0));
+		armed = true;
+	}
+
 		
 	void	OnTriggerStay(Collider x){
 		if (x.name == enemy.name || x.name == "hitbox") {
@@ -31,11 +39,6 @@ public class HitboxScript : MonoBehaviour {
 		if (x.name != myDad.name) {
 		}
 		//Debug.Log("Collision detected by " + myDad.name);
-	}
-
-	void OnTriggerExit(){
-		//Debug.Log ("Collision ended");
-		//trigger = false;
 	}
 
 	public void ClearBox(){

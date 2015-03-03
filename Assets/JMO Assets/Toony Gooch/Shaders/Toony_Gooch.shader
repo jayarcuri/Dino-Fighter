@@ -7,8 +7,8 @@ Shader "Toony Gooch/Toony Gooch"
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_Ramp ("Toon Ramp (RGB)", 2D) = "gray" {}
 		
-        _SColor ("Shadow Color", Color) = (0.0,0.0,0.0,1)
-		_LColor ("Highlight Color", Color) = (0.5,0.5,0.5,1)
+        _SColor ("Shadow Color", Color) = (6.0,5.0,30.0,1)
+		_LColor ("Highlight Color", Color) = (240.5,235.5,221.5,1)
 	}
 
 	SubShader
