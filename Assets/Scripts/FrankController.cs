@@ -24,10 +24,12 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 	public FrankController opponent;
 	public GameObject fireball;
 	private InputPanel2 iP2;
+	private float initialHeight;
 	public HealthBarController healthBar;
 
 	void Start ()
 	{
+		initialHeight = gameObject.transform.localPosition.y;
 		moveCount = 0; //count for block of move
 		moveQueue = new List<MoveClass>();
 		iP2 = FindObjectOfType<InputPanel2> ();
@@ -47,11 +49,12 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 	public void takeMove ()
 	{
+		print (moveQueue.Count + "for player " + GetPlayerID());
 		if (!hasJumped || moveQueue.Count > 0) {
 			if (opponent.transform.position.x < transform.position.x && transform.localRotation.y != 180) //block checks if a player needs to spin around
 				transform.localEulerAngles = new Vector3 (0, 180, 0);
 			if (opponent.transform.position.x > transform.position.x && transform.localRotation.y != 0)
-				transform.localEulerAngles = Vector3.zero;}													//block ends
+				transform.localEulerAngles = Vector3.zero;}												//block ends
 
 				blocking = false;
 				string nextMove = moveQueue [0].name;
@@ -270,7 +273,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 					myBall.nextMove ();
 		transform.position = new Vector3 (Mathf.Clamp (transform.localPosition.x, -5.874f, 5.874f), 
 		                                 transform.localPosition.y, transform.localPosition.z);
-		if (moveQueue [0].frames == 1)
+		if (moveQueue [0].frames < 1)
 			moveQueue.RemoveAt (0);
 		else
 			moveQueue [0].frames -= 1;
@@ -283,7 +286,10 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 		//while the total number of frames within the moves passed to Control is less than 3, dequeueing continues
 		while (count < 3 && hasNext()) {
 			int temp = moveQueue [0].frames;
-			iP2.setBox (count, moveQueue [0]);
+			if(count == 0)
+			iP2.setBox (count, moveQueue [0], true);
+			else
+				iP2.setBox (count, moveQueue [0]);
 			moveQueue.RemoveAt (0);
 			count += temp;
 			//Debug.Log (playerID + " - setting next turn");
@@ -311,8 +317,8 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 		moveQueue.Clear ();
 		jumpFrames = moveCount = 0;
 		hasThrown = hasJumped = false;
-		if (transform.localPosition.y != 1.19)
-			transform.localPosition = new Vector3 (transform.localPosition.x, 1.19f, transform.localPosition.z);
+		if (transform.localPosition.y != initialHeight)
+			transform.localPosition = new Vector3 (transform.localPosition.x, initialHeight, transform.localPosition.z);
 	}
 	
 

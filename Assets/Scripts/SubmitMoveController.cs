@@ -13,7 +13,8 @@ public class SubmitMoveController : MonoBehaviour {
 	}
 
 
-	public void ReportMove(){ //late night fix for reporting our move to InputPanel
+	public void ReportMove(){ //late night fix for reporting our move to InputPanel, 
+								//since Unity UI cannot easily pass multiple parameters to a method
 		controlPanel.setBox (ForMoveBlock, currentMove);
 	}
 	

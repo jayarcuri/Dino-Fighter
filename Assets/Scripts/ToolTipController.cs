@@ -6,7 +6,7 @@ public class ToolTipController : MonoBehaviour {
 	private MoveClass [] myMoves;
 	private MoveClass currentMove;
 	private RectTransform thisBox;
-	private RawImage[] image;
+	private Image[] image;
 	private GameObject[] frameDataArray;
 	private Text overflowText;
 	SubmitMoveController submissionButton;
@@ -26,19 +26,19 @@ public class ToolTipController : MonoBehaviour {
 	}
 
 	void Update(){
-		//if (MouseCood != null) {
+		if (MouseCood != null) {
 			if (Input.mousePosition != MouseCood){
 				foreach(GameObject obj in frameDataArray){
 					RectTransform temp = obj.GetComponent<RectTransform>();
 					temp.anchorMin = new Vector2( 0.9999f, 0.1f);
 					temp.anchorMax = new Vector2( 1,0.9f);
-					obj.GetComponent<RawImage>().color = Color.red;
+					obj.GetComponent<Image>().color = Color.red;
 				}
 				gameObject.SetActive (false);
-			//}
+			}
 		}
 	}
-	
+
 	public void summonToolTip(string move){
 
 		switch (move){
@@ -113,7 +113,7 @@ public class ToolTipController : MonoBehaviour {
 
 		foreach (int i in currentMove.activeFrames) {
 			if(i>0)
-			frameDataArray[i-1].GetComponent<RawImage>().color = Color.green;
+			frameDataArray[i-1].GetComponent<Image>().color = Color.green;
 		}
 
 		for (int i = 0; i < currentMove.frames && i < 6; i++) {

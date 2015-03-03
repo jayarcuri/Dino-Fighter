@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: d75ca588514db4b5db1ecd61bf3c9672
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Buttons0 - right
+    21300002: Buttons0 - 1
+    21300004: UIButtons - 3:2:15_2
+    21300006: UIButtons - 3:2:15_3
+    21300008: Buttons0 - left
+    21300010: Buttons0 - vert jump
+    21300012: Buttons0 - right jump
+    21300014: Buttons0 - left jump
+    21300016: UIButtons - 3:2:15_8
+    21300018: UIButtons - 3:2:15_9
+    21300020: Buttons0 - right dash
+    21300022: Buttons0 - left dash
+    21300024: Buttons0 - light atk
+    21300026: Buttons0 - medium atk
+    21300028: Buttons0 - heavy atk
+    21300030: Buttons0 - jump atk
+    21300032: Buttons0 - acid spit
+    21300034: Buttons0 - checkmark
+    21300036: Buttons0 - blank
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Buttons0 - right
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2006
+        width: 401
+        height: 388
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - 1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2006
+        width: 401
+        height: 388
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UIButtons - 3:2:15_2
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2006
+        width: 402
+        height: 388
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UIButtons - 3:2:15_3
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 2006
+        width: 400
+        height: 388
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - left
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1520
+        width: 401
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - vert jump
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1520
+        width: 401
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - right jump
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1520
+        width: 401
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - left jump
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1520
+        width: 403
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UIButtons - 3:2:15_8
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1477
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UIButtons - 3:2:15_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1468
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - right dash
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1032
+        width: 401
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - left dash
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1032
+        width: 401
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - light atk
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1032
+        width: 403
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - medium atk
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1032
+        width: 403
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - heavy atk
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 562
+        width: 401
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - jump atk
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 562
+        width: 402
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - acid spit
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 562
+        width: 401
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - checkmark
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 562
+        width: 401
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons0 - blank
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 83
+        width: 401
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

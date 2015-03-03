@@ -11,7 +11,9 @@ public class InputPanel2 : MonoBehaviour {
 	public Texture cartesian;
 	private int turn = 0;
 	public Button[] buttonArray;
+	public Sprite[] spriteLibrary;
 	private Text[] buttonArrayText;
+	private Image[] buttonArrayImage;
 	private MoveClass[] moveArray;
 	public FrankController[] players; //replacement for character variables
 	private bool[] airAttackOK;
@@ -37,7 +39,9 @@ public class InputPanel2 : MonoBehaviour {
 		mySong = GetComponent<AudioSource> ();
 		turnSwitch = hitOccurred = executionPhase = movelistUp = gameOver = started = false;
 		buttonArrayText = new Text[3];
+		buttonArrayImage = new Image[3];
 		for (int i = 0; i<3; i++) {
+			buttonArrayImage[i] = buttonArray[i].GetComponent<Image>();
 			buttonArrayText[i] = buttonArray[i].GetComponentInChildren<Text>();
 		}
 	}
@@ -72,30 +76,58 @@ public class InputPanel2 : MonoBehaviour {
 
 
 	public void setBox(int index, MoveClass move){
-		buttonArrayText[index].text = move.name;
+		print ("Setting!");
+		ImageSwitch (index, move.name);
 		moveArray [index] = move;
 
 		// sets buttons to occupied by a move's name if applic, sets those to null in move array
 		for (int i = index+1; i<3; i++) { 
 			if(move.frames > i-index){
 				moveArray[i] = null;
-			buttonArrayText[i].text = move.name;
+				ImageSwitch(i, move.name);
 				buttonArray[i].interactable = false;}
 			else{	//Clears buttons and makes interactable if applic
 				if(!buttonArray[i].IsInteractable()){
 					buttonArray[i].interactable = true;
-					buttonArrayText[i].text = "Pick a move!";
+					ImageClear(i);
 				}
 				else //Breaks if an interactable button is found
 					i = 3;}
+			print(moveArray.Length);
 		}
 
 		//The submit button is only accessable if all buttons are set
-			takeTurnButton.interactable = (buttonArrayText [0].text != "Pick a move!" &&
-		               buttonArrayText [1].text != "Pick a move!" && 
-		                	buttonArrayText [2].text != "Pick a move!");
+			takeTurnButton.interactable = (buttonArrayText [0].text != "_" &&
+		               buttonArrayText [1].text != "_" && 
+		                	buttonArrayText [2].text != "_");
 	}
-	
+
+	public void setBox(int index, MoveClass move, bool isFirstBlockofNewTurn){
+		print ("Setting!");
+		ImageSwitch (index, move.name);
+		moveArray [index] = move;
+		if(isFirstBlockofNewTurn)
+			buttonArray[index].interactable = false;
+		
+		// sets buttons to occupied by a move's name if applic, sets those to null in move array
+		for (int i = index+1; i<3; i++) { 
+			if(move.frames > i-index){
+				moveArray[i] = null;
+				ImageSwitch(i, move.name);
+				buttonArray[i].interactable = false;}
+			else{	//Clears buttons and makes interactable if applic
+				if(!buttonArray[i].IsInteractable()){
+					buttonArray[i].interactable = true;
+					ImageClear(i);
+				}
+				else //Breaks if an interactable button is found
+					i = 3;}
+			print(moveArray.Length);
+		}
+		
+		//The submit button is only accessable if all buttons are set
+		takeTurnButton.interactable = false;
+	}
 	public void endGame(){
 		mySong.Play ();
 		gameOver = true;
@@ -108,7 +140,6 @@ public class InputPanel2 : MonoBehaviour {
 
 	IEnumerator takeTurn(){
 		turn += 1;
-		takeTurnButton.interactable = false;
 		//This function plays when the "Take Turn!" gui element is pressed. 
 		if (turn % 2 == 1) {
 			Debug.Log ("Turn: " + turn);
@@ -119,12 +150,9 @@ public class InputPanel2 : MonoBehaviour {
 					}
 			moveArray = new MoveClass[]{null, null, null};
 
-			buttonArrayText[0].text = "Pick a move!";
-				buttonArray[0].interactable = true;
-			buttonArrayText[1].text = "Pick a move!";
-				buttonArray[1].interactable = true;
-			buttonArrayText[2].text = "Pick a move!";
-				buttonArray[2].interactable = true;
+			ImageClear(0);
+			ImageClear(1);
+			ImageClear (2);
 			eve.setupNextTurn ();
 		}
 
@@ -149,12 +177,9 @@ public class InputPanel2 : MonoBehaviour {
 				}
 					}
 
-			buttonArrayText[0].text = "Pick a move!";
-			buttonArray[0].interactable = true;
-			buttonArrayText[1].text = "Pick a move!";
-			buttonArray[1].interactable = true;
-			buttonArrayText[2].text = "Pick a move!";
-			buttonArray[2].interactable = true;
+			ImageClear(0);
+			ImageClear(1);
+			ImageClear (2);
 				adam.setupNextTurn ();
 
 			//	executionPhase = false; <--Think this is unneeded
@@ -202,4 +227,85 @@ public class InputPanel2 : MonoBehaviour {
 		executionPhase = false;
 		print ("Player one health: " + adam.getHealth() + " || Player two health: " + eve.getHealth());
 	}
+
+	private void ImageClear(int index){
+		//Quick fix for "Next Turn" button check
+		buttonArrayText [index].text = "_";
+		buttonArray [index].interactable = true;
+		buttonArrayImage [index].sprite = spriteLibrary [14];
+	}
+
+	private void ImageSwitch(int index, string name){
+		//Clears text field
+		buttonArrayText [index].text = "";
+
+		//Assigns appropriate icon to button
+		switch (name) {
+
+			//assigns blank image with text due to lack of current art
+		case "Knocked Down":
+		case "Hit":
+		case "Dino-Punch":
+		case "Throw":
+		case "Defend":
+			buttonArrayText[index].text = name;
+			buttonArrayImage [index].sprite = spriteLibrary [14];
+			break;
+
+			
+		case "Light Attack":
+			buttonArrayImage [index].sprite = spriteLibrary [0];
+			break;
+			
+		case "Medium Attack":
+			buttonArrayImage [index].sprite = spriteLibrary [1];
+			break;
+			
+		case "Heavy Attack":
+			buttonArrayImage [index].sprite = spriteLibrary [2];
+			break;
+			
+		case "Walk Forward":
+			buttonArrayImage [index].sprite = spriteLibrary [12];
+			break;
+			
+		case "Walk Back":
+			buttonArrayImage [index].sprite = spriteLibrary [13];
+			break;
+			
+		case "Forward Dash":
+			buttonArrayImage [index].sprite = spriteLibrary [7];
+			break;
+			
+		case "Back Dash":
+			buttonArrayImage [index].sprite = spriteLibrary [8];
+			break;
+			
+		case "Jump":
+			buttonArrayImage [index].sprite = spriteLibrary [9];
+			break;
+			
+		case "Jump Right":
+			buttonArrayImage [index].sprite = spriteLibrary [11];
+			break;
+			
+		case "Jump Left":
+		buttonArrayImage [index].sprite = spriteLibrary [10];
+			break;
+			
+			
+		case "Air Attack":
+			buttonArrayImage [index].sprite = spriteLibrary [6];
+			break;
+			
+		case "Fireball":
+			buttonArrayImage [index].sprite = spriteLibrary [3];
+			break;
+
+		default :
+			break;
+			
+		}
+	}
+
 }
