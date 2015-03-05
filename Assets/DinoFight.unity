@@ -431,7 +431,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: fdash
+          m_StringArgument: rdash
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 1031877189}
@@ -443,7 +443,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: fdash
+          m_StringArgument: rdash
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 1031877188}
@@ -2439,7 +2439,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: forward
+          m_StringArgument: right
           m_BoolArgument: 1
         m_CallState: 1
       - m_Target: {fileID: 1031877189}
@@ -2451,7 +2451,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: forward
+          m_StringArgument: right
           m_BoolArgument: 1
         m_CallState: 1
       - m_Target: {fileID: 1031877188}
@@ -3390,7 +3390,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: bdash
+          m_StringArgument: ldash
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 1031877189}
@@ -3402,7 +3402,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: bdash
+          m_StringArgument: ldash
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 1031877188}
@@ -5592,7 +5592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1091233133
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6315,7 +6315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1180669520
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8874,7 +8874,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: back
+          m_StringArgument: left
           m_BoolArgument: 1
         m_CallState: 1
       - m_Target: {fileID: 1031877189}
@@ -8886,7 +8886,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: back
+          m_StringArgument: left
           m_BoolArgument: 1
         m_CallState: 1
       - m_Target: {fileID: 1031877188}

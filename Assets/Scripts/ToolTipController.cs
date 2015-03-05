@@ -79,18 +79,18 @@ public class ToolTipController : MonoBehaviour {
 		case "rjump":
 			currentMove = new MoveClass("Jump Right", 6, new int[0], 0, 0, 0, 0, 0, 0);
 			break;
-		case "fdash":
+		case "rdash":
 			currentMove = myMoves[7];
 			break;
-		case "bdash":
+		case "ldash":
 			currentMove = myMoves[8];
 			break;
 
-		case "forward":
+		case "right":
 			currentMove = new MoveClass("Walk Forward", 1, new int[0], 0, 0, 0, 0,0,0);
 			break;
 
-		case "back":
+		case "left":
 				currentMove = new MoveClass("Walk Back", 1, new int[0], 0, 0, 0, 0,0,0);
 			break;
 
