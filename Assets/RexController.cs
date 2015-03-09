@@ -76,30 +76,30 @@ public class RexController : MonoBehaviour
 			break;
 			
 		case "Light Attack":
-			if (moveQueue[0].frames == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0]+1) {
+			if (moveQueue[0].framesLeft == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0]+1) {
 				myLimb.SetHitBox (moveQueue [0]);
 				myDino.animation.Play ("Jab");
 			}
-			if (moveQueue[0].frames == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0] - moveQueue[0].activeFrames.Length) {
+			if (moveQueue[0].framesLeft == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0] - moveQueue[0].activeFrames.Length) {
 				myLimb.ClearBox ();}
 			break;
 			
 		case "Medium Attack":
-			if (moveQueue[0].frames == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0]) {
+			if (moveQueue[0].framesLeft == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0]) {
 				myLimb.SetHitBox (moveQueue [0]);
 			}
-			if (moveQueue[0].frames == moveQueue[0].initialFrames - moveQueue[0].activeFrames.Length) {
+			if (moveQueue[0].framesLeft == moveQueue[0].initialFrames - moveQueue[0].activeFrames.Length) {
 				myLimb.ClearBox ();}
 			break;
 			
 		case "Heavy Attack":
 			if (moveCount < 2) 
 				transform.Translate (Vector3.right * .2f);
-			if (moveQueue[0].frames == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0]) {
+			if (moveQueue[0].framesLeft == moveQueue[0].initialFrames - moveQueue[0].activeFrames[0]) {
 				myLimb.SetHitBox (moveQueue [0]);
 				myDino.animation.Play("Heavy");
 			}
-			if (moveQueue[0].frames == moveQueue[0].initialFrames - moveQueue[0].activeFrames.Length) {
+			if (moveQueue[0].framesLeft == moveQueue[0].initialFrames - moveQueue[0].activeFrames.Length) {
 				myLimb.ClearBox ();}
 			break;
 			
@@ -259,19 +259,19 @@ public class RexController : MonoBehaviour
 
 		transform.position = new Vector3 (Mathf.Clamp (transform.localPosition.x, -5.874f, 5.874f), 
 		                                  transform.localPosition.y, transform.localPosition.z);
-		if (moveQueue [0].frames < 1)
+		if (moveQueue [0].framesLeft < 1)
 			moveQueue.RemoveAt (0);
 		else
-			moveQueue [0].frames -= 1;
+			moveQueue [0].framesLeft -= 1;
 		
 	}
 	
 	
 	public void setupNextTurn(){
 		int count = 0;
-		//while the total number of frames within the moves passed to Control is less than 3, dequeueing continues
+		//while the total number of framesLeft within the moves passed to Control is less than 3, dequeueing continues
 		while (count < 3 && hasNext()) {
-			int temp = moveQueue [0].frames;
+			int temp = moveQueue [0].framesLeft;
 			if(count == 0)
 				iP2.setBox (count, moveQueue [0], true);
 			else

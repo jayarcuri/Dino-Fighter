@@ -9,7 +9,7 @@ public class ToolTipController : MonoBehaviour {
 	private Image[] image;
 	private GameObject[] frameDataArray;
 	private Text overflowText;
-	SubmitMoveController submissionButton;
+	GUIFrameController GUIFrame;
 	Vector3 MouseCood;
 	public Text moveName;
 	public Color ourRed;
@@ -22,7 +22,7 @@ public class ToolTipController : MonoBehaviour {
 			GameObject.Find ("frame3"), GameObject.Find ("frame4"), GameObject.Find ("frame5")};
 		thisBox = GetComponent<RectTransform> ();
 		overflowText = frameDataArray [5].GetComponentInChildren<Text> ();
-		submissionButton = GameObject.Find ("SubmitMoveButton").GetComponent<SubmitMoveController> ();
+		GUIFrame = GameObject.Find ("GUIFrame").GetComponent<GUIFrameController> ();
 	}
 
 	void Update(){
@@ -67,17 +67,17 @@ public class ToolTipController : MonoBehaviour {
 			currentMove = myMoves[5];
 			break;
 
-		case "jatk":
+		case "jump attack":
 			currentMove = myMoves[6];
 			break;
 		case "jump":
-			currentMove = new MoveClass("Jump", 6, new int[0], 0, 0, 0, 0, 0,0);
+			currentMove = new MoveClass("Jump", 6);
 			break;
 		case "ljump":
-			currentMove = new MoveClass("Jump Left", 6, new int[0], 0, 0, 0, 0, 0, 0);
+			currentMove = new MoveClass("Jump Left", 6);
 			break;
 		case "rjump":
-			currentMove = new MoveClass("Jump Right", 6, new int[0], 0, 0, 0, 0, 0, 0);
+			currentMove = new MoveClass("Jump Right", 6);
 			break;
 		case "rdash":
 			currentMove = myMoves[7];
@@ -87,15 +87,15 @@ public class ToolTipController : MonoBehaviour {
 			break;
 
 		case "right":
-			currentMove = new MoveClass("Walk Forward", 1, new int[0], 0, 0, 0, 0,0,0);
+			currentMove = new MoveClass("Walk Forward");
 			break;
 
 		case "left":
-				currentMove = new MoveClass("Walk Back", 1, new int[0], 0, 0, 0, 0,0,0);
+				currentMove = new MoveClass("Walk Back");
 			break;
 
 		case "defend":
-			currentMove = new MoveClass("Defend", 1, new int[0], 0, 0, 0, 0,0,0);
+			currentMove = new MoveClass("Defend");
 			break;
 
 		default:
@@ -107,23 +107,23 @@ public class ToolTipController : MonoBehaviour {
 			damageText.text = currentMove.dmg.ToString();
 
 		moveName.text = currentMove.name;
-		submissionButton.currentMove = this.currentMove;
+		GUIFrame.currentMove = this.currentMove;
 		MouseCood = Input.mousePosition;
-		float margin = (1.02f - Mathf.Clamp(currentMove.frames, 1.0f, 6.0f) * 0.15f) / 2;
+		float margin = (1.02f - Mathf.Clamp(currentMove.framesLeft, 1.0f, 6.0f) * 0.15f) / 2;
 
 		foreach (int i in currentMove.activeFrames) {
 			if(i>0)
 			frameDataArray[i-1].GetComponent<Image>().color = Color.green;
 		}
 
-		for (int i = 0; i < currentMove.frames && i < 6; i++) {
+		for (int i = 0; i < currentMove.framesLeft && i < 6; i++) {
 			RectTransform temp = frameDataArray[i].GetComponent<RectTransform>();
 			temp.anchorMin = new Vector2( margin + 0.15f * (i), 0.1f);
 			//print (margin + 0.15f * (i));
 			temp.anchorMax = new Vector2( margin + 0.15f * (i) + 0.13f,0.9f);
 		}
-		if (currentMove.frames > 6)
-			overflowText.text = "+" + (currentMove.frames - 6).ToString ();
+		if (currentMove.framesLeft > 6)
+			overflowText.text = "+" + (currentMove.framesLeft - 6).ToString ();
 		else
 			overflowText.text = "";
 	}

@@ -78,11 +78,16 @@ public class InputPanel2 : MonoBehaviour {
 	public void setBox(int index, MoveClass move){
 		print ("Setting!");
 		ImageSwitch (index, move.name);
-		moveArray [index] = move;
+		if (move.name == "Air Attack") {
+			MoveClass temp = moveArray [index];
+			moveArray [index] = new MoveClass (temp.name + " AA", temp.initialFrames + 1, new int[2] {temp.framesLeft, temp.framesLeft + 1}, move.hitStun,
+			                                  move.bStun, move.priority, move.range, move.dmg, move.kB, temp.framesLeft+1);
+		} else
+			moveArray [index] = move;
 
 		// sets buttons to occupied by a move's name if applic, sets those to null in move array
 		for (int i = index+1; i<3; i++) { 
-			if(move.frames > i-index){
+			if(moveArray [index].framesLeft > i-index){
 				moveArray[i] = null;
 				ImageSwitch(i, move.name);
 				buttonArray[i].interactable = false;}
@@ -111,7 +116,7 @@ public class InputPanel2 : MonoBehaviour {
 		
 		// sets buttons to occupied by a move's name if applic, sets those to null in move array
 		for (int i = index+1; i<3; i++) { 
-			if(move.frames > i-index){
+			if(move.framesLeft > i-index){
 				moveArray[i] = null;
 				ImageSwitch(i, move.name);
 				buttonArray[i].interactable = false;}
@@ -171,8 +176,8 @@ public class InputPanel2 : MonoBehaviour {
 
 				for (int n = 0; n < 3; n++) {
 						if(executionPhase){
-					adam.takeMove ();	
-					eve.takeMove ();
+					StartCoroutine(adam.takeMove ());	
+					StartCoroutine(eve.takeMove ());
 					yield return new WaitForSeconds (0.5f);	
 					if (HitQueue.Count > 0)
 						playHits ();
@@ -235,6 +240,15 @@ public class InputPanel2 : MonoBehaviour {
 		buttonArrayText [index].text = "_";
 		buttonArray [index].interactable = true;
 		buttonArrayImage [index].sprite = spriteLibrary [14];
+	}
+
+	public MoveClass MoveAt(int index){
+		if (moveArray [index] != null)
+			return moveArray [index];
+		else {
+			//throw new UnityException ("No move at that index!");
+			return new MoveClass("null");
+		}
 	}
 
 	private void ImageSwitch(int index, string name){

@@ -4,20 +4,22 @@ using System.Collections;
 public class MoveClass
 {
 	public string name;
-	public int frames;
-	public int[] activeFrames;
-	public int priority;
-	public int hitStun; 
-	public int bStun;
-	public int dmg;
-	public float kB;
-	public float range;
+	public int framesLeft; //number of blocks a move takes
+	public int[] activeFrames; //each part of the array is one frame where the attack can hurt, 
+	//and the number of that element is what frame it occurs on
+	public int priority; //unimplemented
+	public int hitStun; //how many blocks to queue on opponent if hit
+	public int bStun; //HitAdv but for blocking the move
+	public int dmg;	//What do you think, hotshot?
+	public float kB; //total distance a character should move when hit
+	public float range; //range of hitbox
 	public int initialFrames;
 	public int playerID { get; set; }//ID for player who started move
-	
+
+
 	public MoveClass(string name){
 		this.name = name;
-		this.frames = initialFrames = 1;
+		this.framesLeft = initialFrames = 1;
 		this.activeFrames = new int[0];
 		hitStun = 0;
 		bStun = 0;
@@ -29,7 +31,7 @@ public class MoveClass
 
 	public MoveClass(string name, int frames){
 		this.name = name;
-		this.frames = initialFrames = frames;
+		this.framesLeft = initialFrames = frames;
 		this.activeFrames = new int[0];
 		hitStun = 0;
 		bStun = 0;
@@ -42,7 +44,7 @@ public class MoveClass
 	public MoveClass(string name, int frames, int[] activeFrames, int hitAdv, int blockAdv, 
 	                 int priority, float range, int damage, float knockBack){
 		this.name = name;
-		this.frames = initialFrames = frames;
+		this.framesLeft = initialFrames = frames;
 		this.activeFrames = activeFrames;
 		hitStun = hitAdv;
 		bStun = blockAdv;
@@ -50,6 +52,20 @@ public class MoveClass
 		dmg = damage;
 		kB = knockBack;
 		this.range = range;
+	}
+
+	public MoveClass(string name, int initialFrames, int[] activeFrames, int hitAdv, int blockAdv, 
+	                 int priority, float range, int damage, float knockBack, int frames){
+		this.name = name;
+		this.initialFrames = initialFrames;
+		this.activeFrames = activeFrames;
+		hitStun = hitAdv;
+		bStun = blockAdv;
+		this.priority = priority;
+		dmg = damage;
+		kB = knockBack;
+		this.range = range;
+		this.framesLeft = frames;
 	}
 }
 

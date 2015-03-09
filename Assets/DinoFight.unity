@@ -422,8 +422,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -433,30 +433,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: rdash
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: rdash
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -942,8 +918,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -951,7 +927,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: light
+          m_StringArgument: latk
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 1031877189}
@@ -965,7 +941,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: latk
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 1031877188}
         m_MethodName: SetActive
         m_Mode: 6
@@ -1589,8 +1565,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1598,7 +1574,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: medium
+          m_StringArgument: matk
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1031877189}
@@ -1612,7 +1588,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: matk
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 0
       - m_Target: {fileID: 1031877188}
         m_MethodName: SetActive
         m_Mode: 6
@@ -1721,6 +1697,7 @@ GameObject:
   - 222: {fileID: 335153032}
   - 114: {fileID: 335153031}
   - 114: {fileID: 335153030}
+  - 114: {fileID: 335153033}
   m_Layer: 5
   m_Name: AttackTog
   m_TagString: Untagged
@@ -1797,33 +1774,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1541215211}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1091233132}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 335153033}
+        m_MethodName: Activate
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
@@ -1862,6 +1815,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 335153028}
+--- !u!114 &335153033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 335153028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d9ebebbcadd45d4ab063234678609d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childPanel: {fileID: 1541215211}
+  otherButton: {fileID: 543462965}
 --- !u!1 &341436553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,6 +2001,7 @@ RectTransform:
   - {fileID: 474870277}
   - {fileID: 1180669520}
   - {fileID: 1113067462}
+  - {fileID: 1760589951}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
@@ -2346,6 +2313,145 @@ Transform:
   - {fileID: 17643595}
   m_Father: {fileID: 886141952}
   m_RootOrder: 1
+--- !u!1 &426785919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 426785920}
+  - 222: {fileID: 426785923}
+  - 114: {fileID: 426785922}
+  - 114: {fileID: 426785921}
+  m_Layer: 5
+  m_Name: JumpAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &426785920
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426785919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1053260356}
+  m_RootOrder: 0
+  m_AnchorMin: {x: .400000006, y: 0}
+  m_AnchorMax: {x: .600000024, y: 1}
+  m_AnchoredPosition: {x: 0, y: 4.76837158e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .499999821, y: .500000119}
+--- !u!114 &426785921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426785919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: .960784316, g: .960784316, b: .960784316, a: 1}
+    m_PressedColor: {r: .784313738, g: .784313738, b: .784313738, a: 1}
+    m_DisabledColor: {r: .784313738, g: .784313738, b: .784313738, a: .501960814}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 426785922}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 556527405}
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 1
+      - m_Target: {fileID: 1031877188}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 1
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: jump attack
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &426785922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426785919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300030, guid: d75ca588514db4b5db1ecd61bf3c9672, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &426785923
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426785919}
 --- !u!1 &432943105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,25 +2531,15 @@ MonoBehaviour:
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: right
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2452,19 +2548,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: right
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -2886,6 +2970,7 @@ GameObject:
   - 222: {fileID: 543462964}
   - 114: {fileID: 543462963}
   - 114: {fileID: 543462962}
+  - 114: {fileID: 543462965}
   m_Layer: 5
   m_Name: MoveTog
   m_TagString: Untagged
@@ -2962,33 +3047,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1091233132}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1541215211}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 543462965}
+        m_MethodName: Activate
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
@@ -3027,6 +3088,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 543462960}
+--- !u!114 &543462965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 543462960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d9ebebbcadd45d4ab063234678609d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childPanel: {fileID: 1091233132}
+  otherButton: {fileID: 335153033}
 --- !u!1 &556527403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,7 +3112,6 @@ GameObject:
   - 222: {fileID: 556527408}
   - 114: {fileID: 556527406}
   - 114: {fileID: 556527405}
-  - 114: {fileID: 556527404}
   m_Layer: 5
   m_Name: SubmitMoveButton
   m_TagString: Untagged
@@ -3046,17 +3119,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &556527404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 556527403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35db2e50f324c4c8a94742cdfd523ffe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &556527405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3096,18 +3158,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1180669519}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1905462522}
         m_MethodName: set_interactable
         m_Mode: 6
@@ -3120,9 +3170,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 556527404}
+      - m_Target: {fileID: 1180669523}
         m_MethodName: ReportMove
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1180669519}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
@@ -3381,8 +3443,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3392,30 +3454,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: ldash
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ldash
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -4435,8 +4473,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4446,30 +4484,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: jump
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: jump
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -4712,6 +4726,68 @@ Transform:
   - {fileID: 392686860}
   m_Father: {fileID: 2023777939}
   m_RootOrder: 0
+--- !u!1 &929735457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 929735458}
+  - 222: {fileID: 929735460}
+  - 114: {fileID: 929735459}
+  m_Layer: 5
+  m_Name: jumpAttackPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &929735458
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929735457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1053260356}
+  m_Father: {fileID: 1860862692}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 6.10351562e-05, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &929735459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929735457}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: .39199999}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &929735460
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929735457}
 --- !u!1 &939192349
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,7 +5330,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: .25}
   m_AnchorMax: {x: .349999994, y: .949999988}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -246, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1031877191
@@ -5339,6 +5415,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 369242005}
   m_RootOrder: 0
+--- !u!1 &1053260355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1053260356}
+  - 222: {fileID: 1053260357}
+  m_Layer: 5
+  m_Name: AttacksFrame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1053260356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1053260355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 426785920}
+  m_Father: {fileID: 929735458}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: .25}
+  m_AnchorMax: {x: 1, y: .75}
+  m_AnchoredPosition: {x: -6.10351562e-05, y: 0}
+  m_SizeDelta: {x: 3.05175781e-05, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!222 &1053260357
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1053260355}
 --- !u!1 &1058688581
 GameObject:
   m_ObjectHideFlags: 0
@@ -5606,7 +5722,7 @@ RectTransform:
   - {fileID: 1322759068}
   - {fileID: 1467713651}
   m_Father: {fileID: 1860862692}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 3.05175781e-05, y: 0}
@@ -6309,6 +6425,7 @@ GameObject:
   - 224: {fileID: 1180669520}
   - 222: {fileID: 1180669522}
   - 114: {fileID: 1180669521}
+  - 114: {fileID: 1180669523}
   m_Layer: 5
   m_Name: GUIFrame
   m_TagString: Untagged
@@ -6365,6 +6482,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180669519}
+--- !u!114 &1180669523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180669519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ecc8ba4495749e3a08fd3b6d907ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPanelChoices:
+  - {fileID: 1541215211}
+  - {fileID: 929735457}
+  movementButton: {fileID: 543462962}
+  defendButton: {fileID: 1634908343}
 --- !u!1 &1190015849
 GameObject:
   m_ObjectHideFlags: 0
@@ -6754,8 +6887,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_ForMoveBlock
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetGUIFrame
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6938,8 +7071,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6947,7 +7080,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: projectile
+          m_StringArgument: sp1
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1031877189}
@@ -6961,7 +7094,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: sp1
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 0
       - m_Target: {fileID: 1031877188}
         m_MethodName: SetActive
         m_Mode: 6
@@ -7394,8 +7527,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7417,7 +7550,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: throw
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 0
       - m_Target: {fileID: 1031877188}
         m_MethodName: SetActive
         m_Mode: 6
@@ -8125,8 +8258,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8134,7 +8267,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: dp
+          m_StringArgument: sp2
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1031877189}
@@ -8148,7 +8281,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: sp2
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 0
       - m_Target: {fileID: 1031877188}
         m_MethodName: SetActive
         m_Mode: 6
@@ -8689,20 +8822,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: fjump
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8712,18 +8833,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: rjump
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -8860,25 +8969,15 @@ MonoBehaviour:
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: left
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8887,19 +8986,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: left
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -9356,20 +9443,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: defend
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1091233132}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 543462965}
+        m_MethodName: Deactivate
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
@@ -9379,9 +9455,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: defend
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 335153033}
+        m_MethodName: Deactivate
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
@@ -9389,32 +9477,8 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: defend
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: defend
-          m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1634908344
@@ -9840,20 +9904,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: bjump
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877189}
-        m_MethodName: summonToolTip
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9863,18 +9915,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: ljump
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1031877188}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -9905,6 +9945,68 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1757544650}
+--- !u!1 &1760589950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1760589951}
+  - 222: {fileID: 1760589953}
+  - 114: {fileID: 1760589952}
+  m_Layer: 5
+  m_Name: VersionPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1760589951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760589950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2146413136}
+  m_Father: {fileID: 381515208}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: .0599999987, y: .0799999982}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &1760589952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760589950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: .223529413, g: .239215687, b: .278431386, a: 1}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1760589953
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760589950}
 --- !u!1 &1779256187
 GameObject:
   m_ObjectHideFlags: 0
@@ -10132,6 +10234,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1541215212}
+  - {fileID: 929735458}
   - {fileID: 1091233133}
   m_Father: {fileID: 1180669520}
   m_RootOrder: 0
@@ -10580,8 +10683,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_ForMoveBlock
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetGUIFrame
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10831,8 +10934,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_ForMoveBlock
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetGUIFrame
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11655,8 +11758,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 556527404}
-        m_MethodName: set_selectedMove
+      - m_Target: {fileID: 1180669523}
+        m_MethodName: SetSelectedMove
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11664,7 +11767,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: heavy
+          m_StringArgument: hatk
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1031877189}
@@ -11678,7 +11781,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: hatk
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 0
       - m_Target: {fileID: 1031877188}
         m_MethodName: SetActive
         m_Mode: 6
@@ -11776,3 +11879,69 @@ Transform:
   - {fileID: 1086997409}
   m_Father: {fileID: 45104748}
   m_RootOrder: 0
+--- !u!1 &2146413135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 2146413136}
+  - 222: {fileID: 2146413138}
+  - 114: {fileID: 2146413137}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2146413136
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146413135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1760589951}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &2146413137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146413135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: .772549033, g: .447058827, b: .0901960805, a: 1}
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: v0.6
+--- !u!222 &2146413138
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146413135}

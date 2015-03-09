@@ -46,7 +46,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 	}
 
 
-	public void takeMove ()
+	public IEnumerator takeMove ()
 	{
 		print (moveQueue.Count + "for player " + GetPlayerID());
 		if (!hasJumped || moveQueue.Count > 0) {
@@ -57,18 +57,27 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 				blocking = false;
 				string nextMove = moveQueue [0].name;
+				MoveClass thisMove = moveQueue [0];
+				int currentFrameNumber = thisMove.initialFrames - thisMove.framesLeft;
 		//Debug.Log("Player " + playerID + ": " + nextMove);
 
 				switch (nextMove) {
 
 
-				case "Knocked Down":
-			if (moveCount == 0)
-				invuln = true;
-			moveCount++;
-			if (moveCount == 6){
+		case "Knocked Down":
+			if(currentFrameNumber == 0)
+			invuln = true;
+			if (currentFrameNumber == moveQueue[0].initialFrames) {
 				moveCount = 0;
-				invuln = false;}
+				invuln = false;
+			}
+			break;
+				case "Light Attack":
+				case "Medium Attack":
+			if(thisMove.activeFrames[0] == currentFrameNumber)
+				myLimb.SetHitBox(thisMove);
+			if(thisMove.activeFrames[0] + thisMove.activeFrames.Length - 1 <  currentFrameNumber)
+				myLimb.ClearBox ();
 			break;
 				
 
@@ -76,36 +85,15 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 					transform.Translate (Vector3.right * knockback);
 					break;
 
-				case "Light Attack":
-					if (moveCount == 0)
-						myLimb.SetHitBox (moveQueue [0]);
-					if (moveCount == 1)
-						myLimb.ClearBox ();
-					moveCount++;
-					if (moveCount == 2)
-						moveCount = 0;
-					break;
-
-				case "Medium Attack":
-					if (moveCount == 0)
-						myLimb.SetHitBox (moveQueue [0]);
-					if (moveCount == 2)
-						myLimb.ClearBox ();
-					moveCount++;
-					if (moveCount == 4)
-						moveCount = 0;
-					break;
 
 				case "Heavy Attack":
-					if (moveCount < 3) {
+					if (currentFrameNumber < 3)
 						transform.Translate (Vector3.right * .3f);
-					}	
-					if (moveCount == 2)
-				myLimb.SetHitBox (moveQueue [0]);;
-					if (moveCount == 3)
+					if (currentFrameNumber == 2)
+				myLimb.SetHitBox (moveQueue [0]);
+					if (currentFrameNumber == 3)
 						myLimb.ClearBox ();
-					moveCount++;
-					if (moveCount == 7)
+				if (currentFrameNumber == moveQueue[0].initialFrames)
 						moveCount = 0;
 					break;
 
@@ -125,13 +113,10 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 				case "Forward Dash":
 					gameObject.transform.Translate (Vector3.right * forwardDash/3);
-					moveCount++;
-					if (moveCount == 4) 
-						moveCount = 0;
 					break;
 
 				case "Back Dash":
-					if (moveCount == 0)
+					if (currentFrameNumber == 0)
 						invuln = true;
 					if (moveCount == 1) {
 						invuln = false;
@@ -148,9 +133,9 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 						jumpFrames = 6;
 						hasJumped = true;
 					}
-					if (jumpFrames > 3)
+					if (currentFrameNumber < 3)
 						transform.Translate (Vector3.up * jumpFactor);
-					if (jumpFrames <= 3)
+					if (currentFrameNumber <= 3)
 						transform.Translate (Vector3.down * jumpFactor);
 					jumpFrames--;
 					if (jumpFrames == 0) {
@@ -272,10 +257,11 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 					myBall.nextMove ();
 		transform.position = new Vector3 (Mathf.Clamp (transform.localPosition.x, -5.874f, 5.874f), 
 		                                 transform.localPosition.y, transform.localPosition.z);
-		if (moveQueue [0].frames < 1)
+		if (moveQueue [0].framesLeft < 1)
 			moveQueue.RemoveAt (0);
 		else
-			moveQueue [0].frames -= 1;
+			moveQueue [0].framesLeft -= 1;
+		yield return null;
 	
 	}
 	
@@ -284,7 +270,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 		int count = 0;
 		//while the total number of frames within the moves passed to Control is less than 3, dequeueing continues
 		while (count < 3 && hasNext()) {
-			int temp = moveQueue [0].frames;
+			int temp = moveQueue [0].framesLeft;
 			if(count == 0)
 			iP2.setBox (count, moveQueue [0], true);
 			else
