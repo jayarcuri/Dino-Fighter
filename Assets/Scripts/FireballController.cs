@@ -3,9 +3,10 @@ using System.Collections;
 
 public class FireballController : MonoBehaviour {
 	public float speed;
-	private FrankController target;
+	private GameObject target;
 	InputPanel2 controlPanel;
-	public void myTarget(FrankController trgt){
+
+	public void myTarget(GameObject trgt){
 		target = trgt;
 	}
 
@@ -15,7 +16,7 @@ public class FireballController : MonoBehaviour {
 			Destroy (gameObject);
 		}
 		if (other.name == target.name) {
-		controlPanel.registerHit (new HitClass(0, 0, 6, 5, 8, .75f, (target.playerID+1)%2));
+		controlPanel.registerHit (new HitClass(0, 0, 6, 5, 8, .75f));
 		Destroy (gameObject);
 		}
 	}

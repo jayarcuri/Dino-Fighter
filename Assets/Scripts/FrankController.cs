@@ -13,14 +13,11 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 	public bool invuln{ get; set; }
 	private string jumpDirection;
 	public float knockback { get; set; }
-	//public HurtBoxScript myBox;
 	public List<MoveClass> moveQueue;
-	public float jumpFactor;
 	public int playerID;
-	public float walkSpeed,forwardDash, backDash;
+	public float walkSpeed,forwardDash, backDash, jumpFactor;
 	public HitboxScript myLimb;
-	public GameObject myDino;
-	public FrankController opponent;
+	public GameObject opponent;
 	public GameObject fireball;
 	private InputPanel2 iP2;
 	private float initialHeight;
@@ -103,12 +100,12 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 				case "Walk Forward":
 					gameObject.transform.Translate (Vector3.right * walkSpeed);
-					myDino.animation.Play ("walk");
+				//	myDino.animation.Play ("walk");
 					break;
 
 				case "Walk Back":
 					gameObject.transform.Translate (-Vector3.right * walkSpeed);
-					myDino.animation.Play ("walk");
+				//	myDino.animation.Play ("walk");
 					break;
 
 				case "Forward Dash":

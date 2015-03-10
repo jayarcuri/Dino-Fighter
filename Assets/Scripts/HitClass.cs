@@ -22,6 +22,17 @@ public class HitClass
 		playerID = pID;
 	}
 
+	public HitClass(int inputPriority, float inputRange, int inputHitstun, 
+	                int inputBlockstun, int inputDamage, float inputKnockback){
+		priority = inputPriority;
+		hitstun = inputHitstun;
+		bStun = inputBlockstun; 
+		dmg = inputDamage;
+		kB = inputKnockback;
+		range = inputRange;
+		playerID = 2;
+	}
+
 	public void Clear(){
 		priority = hitstun = bStun = dmg = 0;
 		range = kB = 0f;

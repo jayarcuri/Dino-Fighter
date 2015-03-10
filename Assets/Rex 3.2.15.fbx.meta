@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a981e01fea034a34a83e73dd98301e6
+guid: 906fc432fe13147399e0861a70529b41
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -90,19 +90,18 @@ ModelImporter:
     400082: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
     400084: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
     4300000: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
-    7400000: Step
-    7400002: Idle
-    7400004: Dash Start
-    7400006: Dash Loop
-    7400008: Dash End
-    7400010: Jump
-    7400012: Defend Start
-    7400014: Defend Freeze
-    7400016: Defend End
-    7400018: Jab
-    7400020: Heavy
-    7400022: Guard Break
-    7400024: Dash Attack
+    7400000: Idle
+    7400002: DashStart
+    7400004: DashLoop
+    7400006: DashEnd
+    7400008: Jump
+    7400010: DefendStart
+    7400012: DefendFreeze
+    7400014: DefendEnd
+    7400016: LightAttack
+    7400018: HeavyAttack
+    7400020: GuardBreak
+    7400022: DashAttack
     9500000: //RootNode
     11100000: //RootNode
     13700000: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
@@ -127,7 +126,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1
       lastFrame: 21
-      wrapMode: 2
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -235,11 +234,11 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Dash Start
+      name: DashStart
       takeName: Take 001
       firstFrame: 23
       lastFrame: 33
-      wrapMode: 8
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -347,7 +346,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Dash Loop
+      name: DashLoop
       takeName: Take 001
       firstFrame: 35
       lastFrame: 52
@@ -459,7 +458,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Dash End
+      name: DashEnd
       takeName: Take 001
       firstFrame: 54
       lastFrame: 71
@@ -683,11 +682,11 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Defend Start
+      name: DefendStart
       takeName: Take 001
       firstFrame: 104
       lastFrame: 122
-      wrapMode: 8
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -795,11 +794,11 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Defend Freeze
+      name: DefendFreeze
       takeName: Take 001
       firstFrame: 122
-      lastFrame: 122.099998
-      wrapMode: 8
+      lastFrame: 122.100006
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -907,7 +906,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Defend End
+      name: DefendEnd
       takeName: Take 001
       firstFrame: 123
       lastFrame: 137
@@ -1019,7 +1018,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Jab
+      name: LightAttack
       takeName: Take 001
       firstFrame: 138
       lastFrame: 159
@@ -1131,7 +1130,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Heavy
+      name: HeavyAttack
       takeName: Take 001
       firstFrame: 160
       lastFrame: 195
@@ -1243,7 +1242,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Guard Break
+      name: GuardBreak
       takeName: Take 001
       firstFrame: 196
       lastFrame: 236
@@ -1355,7 +1354,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Dash Attack
+      name: DashAttack
       takeName: Take 001
       firstFrame: 237
       lastFrame: 279

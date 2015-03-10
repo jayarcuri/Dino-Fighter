@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class RexController : MonoBehaviour
+public class SpeedyController : MonoBehaviour
 {
 	private int health, moveCount, jumpFrames;
 	public bool hasJumped { get; set; } 
@@ -28,7 +28,7 @@ public class RexController : MonoBehaviour
 		moveCount = 0; //count for block of move
 		moveQueue = new List<MoveClass>();
 		iP2 = FindObjectOfType<InputPanel2> ();
-		health = 60;
+		health = 50;
 	}
 	
 	
@@ -246,7 +246,7 @@ public class RexController : MonoBehaviour
 			
 		}
 		
-
+		
 		if (moveQueue [0].framesLeft < 1)
 			moveQueue.RemoveAt (0);
 		else
