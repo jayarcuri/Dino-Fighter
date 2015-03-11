@@ -41,10 +41,22 @@ public class MoveClass
 		this.range = 0;
 	}
 
+	public MoveClass(MoveClass copy){
+		this.name = copy.name;
+		this.framesLeft = this.initialFrames = copy.initialFrames;
+		this.activeFrames = copy.activeFrames;
+		hitStun = copy.hitStun;
+		bStun = copy.bStun;
+		this.priority = copy.priority;
+		dmg = copy.dmg;
+		kB = copy.kB;
+		this.range = copy.range;
+	}
+
 	public MoveClass(string name, int frames, int[] activeFrames, int hitAdv, int blockAdv, 
 	                 int priority, float range, int damage, float knockBack){
 		this.name = name;
-		this.framesLeft = initialFrames = frames;
+		this.framesLeft = this.initialFrames = frames;
 		this.activeFrames = activeFrames;
 		hitStun = hitAdv;
 		bStun = blockAdv;

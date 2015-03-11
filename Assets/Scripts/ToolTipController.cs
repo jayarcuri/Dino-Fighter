@@ -109,21 +109,21 @@ public class ToolTipController : MonoBehaviour {
 		moveName.text = currentMove.name;
 		GUIFrame.currentMove = this.currentMove;
 		MouseCood = Input.mousePosition;
-		float margin = (1.02f - Mathf.Clamp(currentMove.framesLeft, 1.0f, 6.0f) * 0.15f) / 2;
+		float margin = (1.02f - Mathf.Clamp(currentMove.initialFrames, 1.0f, 6.0f) * 0.15f) / 2;
 
 		foreach (int i in currentMove.activeFrames) {
 			if(i>0)
 			frameDataArray[i-1].GetComponent<Image>().color = Color.green;
 		}
 
-		for (int i = 0; i < currentMove.framesLeft && i < 6; i++) {
+		for (int i = 0; i < currentMove.initialFrames && i < 6; i++) {
 			RectTransform temp = frameDataArray[i].GetComponent<RectTransform>();
 			temp.anchorMin = new Vector2( margin + 0.15f * (i), 0.1f);
 			//print (margin + 0.15f * (i));
 			temp.anchorMax = new Vector2( margin + 0.15f * (i) + 0.13f,0.9f);
 		}
-		if (currentMove.framesLeft > 6)
-			overflowText.text = "+" + (currentMove.framesLeft - 6).ToString ();
+		if (currentMove.initialFrames > 6)
+			overflowText.text = "+" + (currentMove.initialFrames - 6).ToString ();
 		else
 			overflowText.text = "";
 	}

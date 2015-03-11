@@ -1064,7 +1064,6 @@ GameObject:
   - 114: {fileID: 297846184}
   - 54: {fileID: 297846187}
   - 136: {fileID: 297846183}
-  - 114: {fileID: 297846188}
   m_Layer: 0
   m_Name: player2
   m_TagString: Untagged
@@ -1116,7 +1115,7 @@ MonoBehaviour:
   backDash: .800000012
   jumpFactor: .600000024
   myLimb: {fileID: 1627788643}
-  opponent: {fileID: 0}
+  opponent: {fileID: 939192349}
   fireball: {fileID: 152900, guid: c4939883f5fdd4a31a2647f360c82da9, type: 2}
   healthBar: {fileID: 1116896054}
 --- !u!23 &297846185
@@ -1161,25 +1160,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!114 &297846188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 297846181}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpFactor: .600000024
-  playerID: 1
-  walkSpeed: .200000003
-  forwardDash: 1
-  backDash: .800000012
-  myLimb: {fileID: 1627788643}
-  opponent: {fileID: 0}
-  healthBar: {fileID: 1116896054}
 --- !u!1 &318204563
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,7 +4068,6 @@ GameObject:
   - 114: {fileID: 939192354}
   - 54: {fileID: 939192355}
   - 136: {fileID: 939192351}
-  - 114: {fileID: 939192356}
   m_Layer: 0
   m_Name: FrankPlayer
   m_TagString: Untagged
@@ -4172,7 +4151,7 @@ MonoBehaviour:
   backDash: .800000012
   jumpFactor: .600000024
   myLimb: {fileID: 726482136}
-  opponent: {fileID: 0}
+  opponent: {fileID: 297846181}
   fireball: {fileID: 152900, guid: c4939883f5fdd4a31a2647f360c82da9, type: 2}
   healthBar: {fileID: 1452717217}
 --- !u!54 &939192355
@@ -4191,26 +4170,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!114 &939192356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11467764, guid: d60dc15f1d9d94c2a9245f7983e071e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 968247265}
-  m_GameObject: {fileID: 939192349}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpFactor: .600000024
-  playerID: 0
-  walkSpeed: .200000003
-  forwardDash: 1
-  backDash: .800000012
-  myLimb: {fileID: 726482136}
-  opponent: {fileID: 0}
-  healthBar: {fileID: 1452717217}
 --- !u!1 &947740585
 GameObject:
   m_ObjectHideFlags: 0
@@ -4378,7 +4337,7 @@ Prefab:
     - target: {fileID: 11467766, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
       propertyPath: opponent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 297846181}
     - target: {fileID: 11467766, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
       propertyPath: healthBar
       value: 
@@ -4391,7 +4350,8 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1452717217}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11467764, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
   m_RootGameObject: {fileID: 939192349}
   m_IsPrefabParent: 0
@@ -4630,7 +4590,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: .25}
   m_AnchorMax: {x: .349999994, y: .949999988}
-  m_AnchoredPosition: {x: -246, y: 0}
+  m_AnchoredPosition: {x: -19, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1031877191
@@ -10471,7 +10431,7 @@ GameObject:
   - 222: {fileID: 2146413138}
   - 114: {fileID: 2146413137}
   m_Layer: 5
-  m_Name: Text
+  m_Name: VersionNo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10519,7 +10479,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v0.6
+  m_Text: v0.7
 --- !u!222 &2146413138
 CanvasRenderer:
   m_ObjectHideFlags: 0

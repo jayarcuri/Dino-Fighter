@@ -42,11 +42,11 @@ public class MoveDictionary : MonoBehaviour
 	// Update is called once per frame
 	public MoveClass[] getMoves(string character){
 		if (character == "frank")
-			return frank;
+			return (MoveClass[])frank.Clone();
 		else if (character == "speedy")
-			return speedy;
+			return (MoveClass[])speedy.Clone();
 		else if(character == "king")
-			return king;
+			return (MoveClass[])king.Clone();
 		else
 			return null;
 	}

@@ -2,9 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FrankController.cs">
     <Files>
-      <File FileName="Assets/RexController.cs" Line="20" Column="19" />
-      <File FileName="Assets/Scripts/FrankController.cs" Line="15" Column="38" />
-      <File FileName="Assets/SpeedyController.cs" Line="1" Column="1" />
+      <File FileName="Assets/RexController.cs" Line="320" Column="1" />
+      <File FileName="Assets/Scripts/FrankController.cs" Line="3" Column="1" />
+      <File FileName="Assets/SpeedyController.cs" Line="31" Column="13" />
+      <File FileName="Assets/Scripts/FireballController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/InputPanel2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HitClass.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

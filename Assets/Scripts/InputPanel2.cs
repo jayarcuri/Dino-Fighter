@@ -176,8 +176,8 @@ public class InputPanel2 : MonoBehaviour {
 
 				for (int n = 0; n < 3; n++) {
 						if(executionPhase){
-					StartCoroutine(adam.takeMove ());	
-					StartCoroutine(eve.takeMove ());
+					adam.takeMove ();	
+					eve.takeMove ();
 					yield return new WaitForSeconds (0.5f);	
 					if (HitQueue.Count > 0)
 						playHits ();

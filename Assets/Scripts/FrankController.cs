@@ -43,7 +43,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 	}
 
 
-	public IEnumerator takeMove ()
+	public void takeMove ()
 	{
 		print (moveQueue.Count + "for player " + GetPlayerID());
 		if (!hasJumped || moveQueue.Count > 0) {
@@ -53,12 +53,12 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 				transform.localEulerAngles = Vector3.zero;}												//block ends
 
 				blocking = false;
-				string nextMove = moveQueue [0].name;
+				moveQueue [0].framesLeft -= 1;
 				MoveClass thisMove = moveQueue [0];
 				int currentFrameNumber = thisMove.initialFrames - thisMove.framesLeft;
 		//Debug.Log("Player " + playerID + ": " + nextMove);
 
-				switch (nextMove) {
+				switch (thisMove.name) {
 
 
 		case "Knocked Down":
@@ -254,12 +254,8 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 					myBall.nextMove ();
 		transform.position = new Vector3 (Mathf.Clamp (transform.localPosition.x, -5.874f, 5.874f), 
 		                                 transform.localPosition.y, transform.localPosition.z);
-		if (moveQueue [0].framesLeft < 1)
+		if (moveQueue [0].framesLeft == 0)
 			moveQueue.RemoveAt (0);
-		else
-			moveQueue [0].framesLeft -= 1;
-		yield return null;
-	
 	}
 	
 

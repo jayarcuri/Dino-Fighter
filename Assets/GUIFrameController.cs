@@ -60,9 +60,9 @@ public class GUIFrameController : MonoBehaviour {
 	}
 	
 	
-	public void ReportMove(){ //late night fix for reporting our move to InputPanel, 
-		//since Unity UI cannot easily pass multiple parameters to a method
-		controlPanel.setBox (ForMoveBlock, currentMove);
+	public void ReportMove(){ 
+		controlPanel.setBox (ForMoveBlock, new MoveClass(currentMove)); //Creates deep copy of currentMove for character
+																	//so the original is not corrupted
 	}
 	
 }
