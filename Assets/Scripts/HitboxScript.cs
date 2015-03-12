@@ -7,25 +7,24 @@ public class HitboxScript : MonoBehaviour {
 	private int playerID;
 	private bool trigger;
 	private bool armed;
-	private HitClass thisMove;
+	private MoveClass thisMove;
 	private InputPanel2 controlPanel;
 	
-	public void SetHitBox(int inputPriority, float inputRange, int inputHitstun, 
-	                      int inputBlockstun, int inputDamage, float inputKnockback){ //general setter}
-		thisMove = new HitClass(inputPriority, inputRange, inputHitstun, 
-		                        inputBlockstun, inputDamage, inputKnockback, playerID);
+	public void SetHitBox(MoveClass move){ //general setter}
+		thisMove = new MoveClass(move);
+		thisMove.playerID = this.playerID;
 		transform.localScale = new Vector3 (thisMove.range, 1f, .5f);
-		transform.localPosition = (new Vector3(1-(inputRange/2), 0));
+		transform.localPosition = (new Vector3(1-(thisMove.range/2), 0));
 		armed = true;
 		}
 
-	public void SetHitBox(MoveClass move){
+/*	public void SetHitBox(MoveClass move){
 		thisMove = new HitClass(move.priority, move.range, move.hitStun, 
 		                       move.bStun, move.dmg, move.kB, playerID);
 		transform.localScale = new Vector3 (thisMove.range, 1f, .5f);
 		transform.localPosition = (new Vector3(1-(move.range/2), 0));
 		armed = true;
-	}
+	}*/
 
 		
 	void	OnTriggerStay(Collider x){
@@ -47,7 +46,7 @@ public class HitboxScript : MonoBehaviour {
 		transform.localScale = Vector3.zero;
 	}
 
-	public bool triggerCheck(HitClass hit){
+	public bool triggerCheck(MoveClass hit){
 		if (trigger == true) {
 			Debug.Log("Sending move");
 			if(enemy.wasHit())

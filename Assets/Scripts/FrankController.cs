@@ -31,6 +31,12 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 		iP2 = FindObjectOfType<InputPanel2> ();
 		health = 60;
 	}
+
+	void Update(){
+		if(Input.GetKeyDown("d"))
+			transform.position += transform.right;
+		
+	}
 	
 
 	public void addMove (MoveClass move)
@@ -45,17 +51,18 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 
 	public void takeMove ()
 	{
-		print (moveQueue.Count + "for player " + GetPlayerID());
+		//print (moveQueue.Count + "for player " + GetPlayerID());
 		if (!hasJumped || moveQueue.Count > 0) {
 			if (opponent.transform.position.x < transform.position.x && transform.localRotation.y != 180) //block checks if a player needs to spin around
 				transform.localEulerAngles = new Vector3 (0, 180, 0);
 			if (opponent.transform.position.x > transform.position.x && transform.localRotation.y != 0)
 				transform.localEulerAngles = Vector3.zero;}												//block ends
 
-				blocking = false;
 				moveQueue [0].framesLeft -= 1;
 				MoveClass thisMove = moveQueue [0];
 				int currentFrameNumber = thisMove.initialFrames - thisMove.framesLeft;
+				if(thisMove.name != "Defend")	//If the player has continued blocking since last turn,
+				blocking = false;				//then there is no gap where they are not blocking
 		//Debug.Log("Player " + playerID + ": " + nextMove);
 
 				switch (thisMove.name) {
@@ -79,7 +86,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 				
 
 				case "Hit":
-					transform.Translate (Vector3.right * knockback);
+			transform.position += transform.right * -thisMove.kB;
 					break;
 
 
@@ -124,86 +131,63 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 						moveCount = 0;
 					break;
 					
-				case "Jump":
-					if (hasJumped == false) {
-						jumpDirection = "up";
-						jumpFrames = 6;
-						hasJumped = true;
-					}
-					if (currentFrameNumber < 3)
-						transform.Translate (Vector3.up * jumpFactor);
-					if (currentFrameNumber <= 3)
-						transform.Translate (Vector3.down * jumpFactor);
-					jumpFrames--;
-					if (jumpFrames == 0) {
-						hasJumped = false;
-						iP2.setAirAttack (playerID);
-					}
-					break;
-
-				case "Jump Right":
-					if (hasJumped == false) {
-						jumpDirection = "forward";
-						jumpFrames = 6;
-						hasJumped = true;
-					}
-					if (jumpFrames > 3)
-						transform.Translate (Vector3.up * jumpFactor);
-					if (jumpFrames <= 3)
-						transform.Translate (Vector3.down * jumpFactor);
-					gameObject.transform.Translate (Vector3.right * forwardDash/3);
-					jumpFrames--;
-					if (jumpFrames == 0) {
-						hasJumped = false;
-						iP2.setAirAttack (playerID);
-					}
-					break;
-
-				case "Jump Left":
-					if (hasJumped == false) {
-						jumpDirection = "back";
-						jumpFrames = 6;
-						hasJumped = true;
-					}
-					if (jumpFrames > 3)
-						transform.Translate (Vector3.up * jumpFactor);
-					if (jumpFrames <= 3)
-						transform.Translate (Vector3.down * jumpFactor);
-					gameObject.transform.Translate (-Vector3.right * forwardDash/3);
-					jumpFrames--;
-					if (jumpFrames == 0) {
-						hasJumped = false;
-						iP2.setAirAttack (playerID);
-					}
-					break;
-
-
-				case "Air Attack":
-					if (jumpFrames > 3)
-					transform.Translate (Vector3.up* jumpFactor);
-					if (jumpFrames <= 3)
-						transform.Translate (Vector3.down * jumpFactor);
-					if (jumpDirection == "forward")
-						gameObject.transform.Translate (Vector3.right * jumpFactor);
-					if (jumpDirection == "back")
-						gameObject.transform.Translate (Vector3.right * jumpFactor);
-					jumpFrames--;
-					
-					if(moveCount == 0)
-					myLimb.SetHitBox (moveQueue [0]);;
-					if(moveCount == 2)
-					myLimb.ClearBox();
+		case "Jump":
+			if (currentFrameNumber <= 3)
+				transform.Translate (Vector3.up * jumpFactor);
+			if (currentFrameNumber > 3)
+				transform.Translate (Vector3.down * jumpFactor);
+			/*if (jumpFrames == 0) {
+				hasJumped = false;
+				iP2.setAirAttack (playerID);
+			}*/
+			break;
 			
-					moveCount++;
-					if (moveCount == 3)
-						moveCount = 0;
+		case "Jump Right":
+			
+			if (currentFrameNumber <= 3)
+				transform.Translate (Vector3.up * jumpFactor);
+			if (currentFrameNumber > 3)
+				transform.Translate (Vector3.down * jumpFactor);
+			gameObject.transform.Translate (Vector3.right * forwardDash/3);
+			/*if (jumpFrames == 0) {
+				hasJumped = false;
+				iP2.setAirAttack (playerID);
+			}*/
+			break;
+			
+		case "Jump Left":
+			if (currentFrameNumber <= 3)
+				transform.Translate (Vector3.up * jumpFactor);
+			if (currentFrameNumber > 3)
+				transform.Translate (Vector3.down * jumpFactor);
+			gameObject.transform.Translate (-Vector3.right * forwardDash/3);
+			/*if (jumpFrames == 0) {
+				hasJumped = false;
+				iP2.setAirAttack (playerID);
+			}*/
+			break;
 
-					if (jumpFrames == 0) {
-						hasJumped = false;
-						iP2.setAirAttack (playerID);
-						moveCount = 0;
-					}
-					break;
+
+		case "Air Attack":
+		case "Jump AA":
+		case "Jump Left AA":
+		case "Jump Right AA":
+			if(thisMove.activeFrames[0] == currentFrameNumber){
+				myLimb.SetHitBox(thisMove);}
+			if(thisMove.activeFrames[0] + 1 <  currentFrameNumber)
+				myLimb.ClearBox ();
+			
+			if (currentFrameNumber <= 3)
+				transform.Translate (Vector3.up * jumpFactor);
+			if (currentFrameNumber > 3 && currentFrameNumber < 7)
+				transform.Translate (Vector3.down * jumpFactor);
+			
+			if (thisMove.name == "Jump Left AA" && currentFrameNumber < 7)
+				gameObject.transform.Translate (-Vector3.right * jumpFactor);
+			if (jumpDirection == "Jump Right AA" && currentFrameNumber < 7)
+				gameObject.transform.Translate (Vector3.right * jumpFactor);
+			
+			break;
 
 				case "Fireball":
 					if (moveCount == 2) {
@@ -300,24 +284,47 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 	}
 	
 
-	public void takeHit (float kback, int damage)
+	public void takeHit (MoveClass move)
 	{
-		Debug.Log ("hit taken: " + damage);
-		//If not knocked down, assign knockback
-		if(kback > 0)
-		knockback=kback;
+		print ("KB is " + move.kB);
+		print ("Recovery is" + move.recovery);
+		print ("Hitstun is" + (move.recovery + move.hitStun));
+		print ("Instant Knockback is " + move.kB*move.recovery / (move.recovery + move.hitStun));
 
-		health = health - damage;
+		Debug.Log ("hit taken: " + move.dmg);
+
+		if (blocking && move.bStun != -10) { // block chunk
+			float instantKnockback = move.kB*move.recovery / (move.recovery + move.hitStun);
+			transform.position += transform.right * -instantKnockback; //Instant Knockback applied
+			
+			print (instantKnockback);
+			addMove (new MoveClass ("Defend", move.bStun, new int[0], 0, 0, 0, 0, 0, move.kB - instantKnockback));
+			Debug.Log ("Defend queued");
+		} else if (!blocking || move.bStun == -10) { //hit chunk - if not blocking or if thrown
+			if (move.kB == -1) { //if a character is knocked down
+				addMove (new MoveClass ("Knocked Down", 6, new int[0], 0, 0, 0, 0, 0, 0)); //queue knockdown
+				Debug.Log ("KD queued");	
+			} 
+			
+			else {	//queue hit turns
+				float instantKnockback = move.kB*move.recovery / (move.recovery + move.hitStun);
+				transform.position += -transform.right * instantKnockback; //Instant Knockback applied
+				
+				print (instantKnockback);
+				addMove (new MoveClass("Hit", move.hitStun, new int[0], 0,0,0,0,0, move.kB - instantKnockback));
+				Debug.Log("Hit queued.");
+			}
+		} //hit chunk ends
+		
+		health = health - move.dmg;
 		healthBar.HealthUpdate (health);
+
 		//Game Over check
 		if (health <= 0)
 			iP2.endGame ();
 	}
 
 
-		public void takeHit (float kback)
-	{	ClearStates ();
-		knockback = kback;}
-	
+
 }
 

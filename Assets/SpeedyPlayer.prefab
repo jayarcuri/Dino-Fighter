@@ -995,7 +995,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188442}
-  m_LocalRotation: {x: .707146704, y: .705444634, z: -.0038767783, w: .0477113873}
+  m_LocalRotation: {x: .707146764, y: .705444694, z: -.00387677783, w: .0477113798}
   m_LocalPosition: {x: -.0143695427, y: -1.40512592e-17, z: -1.3877787e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1632,7 +1632,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188528}
   m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
-  m_LocalPosition: {x: .196999997, y: -.476000011, z: 0}
+  m_LocalPosition: {x: .200000003, y: -.389999986, z: 0}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children:
   - {fileID: 488526}
@@ -1645,8 +1645,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188530}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.79099989, y: 1.32000005, z: -7.4000001}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
+  m_LocalPosition: {x: 1.95000005, y: 1.03999996, z: -7.4000001}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children:
   - {fileID: 488532}
@@ -1789,7 +1789,7 @@ Animation:
   m_CullingType: 1
 --- !u!114 &11488416
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188530}
@@ -1798,13 +1798,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpFactor: .600000024
   playerID: 0
   walkSpeed: .200000003
   forwardDash: 1
   backDash: .800000012
+  jumpFactor: .600000024
   myLimb: {fileID: 11488420}
   opponent: {fileID: 0}
+  fireball: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &11488418
 MonoBehaviour:
@@ -1817,13 +1818,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpFactor: .600000024
   playerID: 0
   walkSpeed: .200000003
   forwardDash: 1
   backDash: .800000012
+  jumpFactor: .600000024
   myLimb: {fileID: 11488420}
   opponent: {fileID: 0}
+  fireball: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &11488420
 MonoBehaviour:
@@ -1849,11 +1851,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7c0aad34d87448f9a6efc903aca108c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpFactor: .600000024
-  playerID: 0
+  playerID: 2
   walkSpeed: .200000003
   forwardDash: 1
   backDash: .800000012
+  jumpFactor: .600000024
   myLimb: {fileID: 11488420}
   opponent: {fileID: 0}
   healthBar: {fileID: 0}

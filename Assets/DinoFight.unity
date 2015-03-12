@@ -131,6 +131,60 @@ Transform:
   - {fileID: 2059423744}
   m_Father: {fileID: 424537091}
   m_RootOrder: 0
+--- !u!1 &32177963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188472, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 32177964}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &32177964
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488452, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 32177963}
+  m_LocalRotation: {x: .0781009197, y: .475164145, z: -.142147154, w: .864819884}
+  m_LocalPosition: {x: -.00589031214, y: 4.440892e-18, z: 3.330669e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1797643814}
+  m_RootOrder: 0
+--- !u!1 &33455652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140282, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 33455653}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33455653
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440290, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 33455652}
+  m_LocalRotation: {x: 0, y: 0, z: .186282054, w: .982496321}
+  m_LocalPosition: {x: -.00201096642, y: 6.88028154e-18, z: -7.76987913e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 974894925}
+  m_RootOrder: 0
 --- !u!1 &42627951
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +270,61 @@ Transform:
   - {fileID: 286677309}
   m_Father: {fileID: 1136803947}
   m_RootOrder: 0
+--- !u!1 &55820957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188446, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 55820958}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &55820958
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488502, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 55820957}
+  m_LocalRotation: {x: .000788119447, y: -.0146206301, z: .490359157, w: .871397495}
+  m_LocalPosition: {x: -.00440674648, y: 5.15176123e-21, z: 1.35247732e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1241289404}
+  m_RootOrder: 0
+--- !u!1 &57026840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188506, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 57026841}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &57026841
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488490, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 57026840}
+  m_LocalRotation: {x: -.274920195, y: .209860295, z: .412789226, w: .842604637}
+  m_LocalPosition: {x: -.00603172882, y: -1.3322676e-17, z: -7.77156121e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1031310157}
+  m_Father: {fileID: 1576737181}
+  m_RootOrder: 1
 --- !u!1 &66330256
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +609,121 @@ SkinnedMeshRenderer:
     m_Center: {x: -.0220161583, y: -.00732794218, z: .00317919627}
     m_Extent: {x: .063784346, y: .0441459939, z: .0330513231}
   m_DirtyAABB: 0
+--- !u!1 &93169362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188524, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 93169363}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &93169363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488524, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 93169362}
+  m_LocalRotation: {x: .138976648, y: .69331491, z: .138976648, w: .69331491}
+  m_LocalPosition: {x: .00118792371, y: .0274053235, z: .00338747725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1576737181}
+  - {fileID: 133147317}
+  - {fileID: 2048137353}
+  - {fileID: 215675852}
+  m_Father: {fileID: 345627034}
+  m_RootOrder: 1
+--- !u!1 &95435362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140290, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 95435363}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &95435363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440296, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 95435362}
+  m_LocalRotation: {x: 0, y: 0, z: .00691155111, w: .999976158}
+  m_LocalPosition: {x: -.00295830471, y: -3.95659918e-05, z: .0030173019}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1914188393}
+  m_Father: {fileID: 494220042}
+  m_RootOrder: 0
+--- !u!1 &103283466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188452, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 103283467}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103283467
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488496, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 103283466}
+  m_LocalRotation: {x: -.103738815, y: -.316638112, z: -.381151378, w: .862381697}
+  m_LocalPosition: {x: -.001877264, y: -.000730894331, z: -.00264908839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1677941968}
+  m_Father: {fileID: 1818270533}
+  m_RootOrder: 1
+--- !u!1 &133147316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188462, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 133147317}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &133147317
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488510, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 133147316}
+  m_LocalRotation: {x: .062350817, y: .0310512111, z: .118686169, w: .990485668}
+  m_LocalPosition: {x: -.0020576173, y: -.000617185724, z: -.0068459264}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 616928068}
+  m_Father: {fileID: 93169363}
+  m_RootOrder: 1
 --- !u!1 &148887616
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +900,34 @@ Transform:
   - {fileID: 542340785}
   m_Father: {fileID: 342953511}
   m_RootOrder: 0
+--- !u!1 &207916746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140336, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 207916747}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &207916747
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440336, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 207916746}
+  m_LocalRotation: {x: -7.66747829e-16, y: 9.6016955e-16, z: -.128112659, w: .991759658}
+  m_LocalPosition: {x: -.0100168027, y: -4.440892e-18, z: -7.04514525e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1289083913}
+  m_Father: {fileID: 761706181}
+  m_RootOrder: 0
 --- !u!1 &209110548
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,6 +1079,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 209110548}
+--- !u!1 &215675851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188426, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 215675852}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &215675852
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488522, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 215675851}
+  m_LocalRotation: {x: .0273155514, y: .0626514554, z: .0154463984, w: .997542024}
+  m_LocalPosition: {x: -.00942449737, y: 4.440892e-18, z: -1.110223e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 368624067}
+  m_Father: {fileID: 93169363}
+  m_RootOrder: 3
 --- !u!1 &226248433
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +1134,33 @@ Transform:
   m_Children:
   - {fileID: 1922897898}
   m_Father: {fileID: 1521463325}
+  m_RootOrder: 0
+--- !u!1 &242237190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140268, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 242237191}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &242237191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440278, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 242237190}
+  m_LocalRotation: {x: 0, y: 0, z: .10244824, w: .99473834}
+  m_LocalPosition: {x: -.0217355322, y: -3.25726458e-18, z: -8.30105523e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 497988399}
   m_RootOrder: 0
 --- !u!1 &250191688
 GameObject:
@@ -1070,7 +1377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &297846182
 Transform:
   m_ObjectHideFlags: 0
@@ -1084,7 +1391,7 @@ Transform:
   - {fileID: 1627788642}
   - {fileID: 1304730374}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!136 &297846183
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1339,6 +1646,33 @@ Transform:
   - {fileID: 988784762}
   m_Father: {fileID: 1299411801}
   m_RootOrder: 0
+--- !u!1 &331457396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140278, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 331457397}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &331457397
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440288, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 331457396}
+  m_LocalRotation: {x: -.417200923, y: -.570914507, z: -.417200923, w: .570914507}
+  m_LocalPosition: {x: -.00313003082, y: 7.23277629e-19, z: 1.33643113e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1846329185}
+  m_RootOrder: 0
 --- !u!1 &335153028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,6 +1871,63 @@ Transform:
   - {fileID: 1495165380}
   m_Father: {fileID: 596010030}
   m_RootOrder: 0
+--- !u!1 &345627033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188528, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 345627034}
+  - 111: {fileID: 345627035}
+  m_Layer: 0
+  m_Name: speedy 3.10.15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &345627034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488528, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 345627033}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: .200000003, y: -.389999986, z: 0}
+  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_Children:
+  - {fileID: 1174247250}
+  - {fileID: 93169363}
+  m_Father: {fileID: 1413309925}
+  m_RootOrder: 1
+--- !u!111 &345627035
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11188416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 345627033}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400002, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400004, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400006, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400008, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400010, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400012, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400014, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400016, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400018, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400020, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  - {fileID: 7400022, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
 --- !u!1 &352490806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1983,34 @@ Transform:
   m_Children:
   - {fileID: 1190015850}
   m_Father: {fileID: 69081952}
+  m_RootOrder: 0
+--- !u!1 &368624066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188424, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 368624067}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &368624067
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488520, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 368624066}
+  m_LocalRotation: {x: .0138988812, y: .030479325, z: .00121252856, w: .999438047}
+  m_LocalPosition: {x: -.0107592689, y: -1.7763568e-17, z: -6.52256025e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 584014273}
+  m_Father: {fileID: 215675852}
   m_RootOrder: 0
 --- !u!1 &369242004
 GameObject:
@@ -1656,7 +2075,7 @@ RectTransform:
   - {fileID: 1113067462}
   - {fileID: 1760589951}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1817,6 +2236,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 928916128}
   m_RootOrder: 0
+--- !u!1 &400582701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188508, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400582702}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400582702
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488434, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 400582701}
+  m_LocalRotation: {x: 0, y: 0, z: .0777499229, w: .996972919}
+  m_LocalPosition: {x: -.00357932062, y: -9.55104177e-18, z: -3.45448801e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1552001758}
+  m_RootOrder: 0
 --- !u!1 &403223017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,6 +2412,33 @@ Transform:
   - {fileID: 17643595}
   m_Father: {fileID: 886141952}
   m_RootOrder: 1
+--- !u!1 &426224024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188476, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 426224025}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &426224025
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488456, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 426224024}
+  m_LocalRotation: {x: .10278473, y: .867265224, z: -.0573302992, w: .483735025}
+  m_LocalPosition: {x: -.00447360938, y: 1.3322676e-17, z: 6.661338e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1352271229}
+  m_RootOrder: 0
 --- !u!1 &426785919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2705,61 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 432943105}
+--- !u!1 &454657243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188432, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 454657244}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454657244
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488420, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 454657243}
+  m_LocalRotation: {x: .0853805766, y: .156429708, z: .329796225, w: .927078426}
+  m_LocalPosition: {x: -.00268366933, y: -5.551115e-19, z: 4.440892e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1332782278}
+  m_RootOrder: 0
+--- !u!1 &457012822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188456, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 457012823}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457012823
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488500, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 457012822}
+  m_LocalRotation: {x: .431358874, y: .891501606, z: .049876105, w: .129100084}
+  m_LocalPosition: {x: .00101698714, y: -.00210887287, z: -7.65092118e-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 605476397}
+  m_Father: {fileID: 1818270533}
+  m_RootOrder: 0
 --- !u!1 &457851853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,6 +2882,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 474870276}
+--- !u!1 &479137839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188492, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 479137840}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479137840
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488476, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 479137839}
+  m_LocalRotation: {x: .105674081, y: .554088354, z: .0455830172, w: .824464262}
+  m_LocalPosition: {x: -.00511617819, y: -.000156627983, z: .000679805118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1129363678}
+  m_Father: {fileID: 1031310157}
+  m_RootOrder: 1
 --- !u!1 &490044248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2937,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1747798975}
   m_RootOrder: 0
+--- !u!1 &494220041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140288, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 494220042}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494220042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440294, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 494220041}
+  m_LocalRotation: {x: 4.80012909e-17, y: 1.64442103e-16, z: -.499471426, w: .866330385}
+  m_LocalPosition: {x: -.0146653587, y: .00148392073, z: 8.62565021e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 95435363}
+  - {fileID: 1129468780}
+  m_Father: {fileID: 1398096308}
+  m_RootOrder: 0
+--- !u!1 &497988398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140266, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497988399}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497988399
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440274, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 497988398}
+  m_LocalRotation: {x: 4.30211475e-16, y: -2.4633076e-16, z: -.107167743, w: .994240999}
+  m_LocalPosition: {x: -.01965045, y: .0197140053, z: -6.49653922e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 242237191}
+  m_Father: {fileID: 1683272142}
+  m_RootOrder: 1
 --- !u!1 &498170025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,6 +3020,91 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 286677309}
+  m_RootOrder: 0
+--- !u!1 &501172112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188440, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 501172113}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &501172113
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488428, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 501172112}
+  m_LocalRotation: {x: .244230807, y: .281426042, z: .00991674699, w: .927929044}
+  m_LocalPosition: {x: -.0169795975, y: 1.24900085e-18, z: -2.220446e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1743918132}
+  - {fileID: 1332782278}
+  - {fileID: 1145936002}
+  m_Father: {fileID: 1080341346}
+  m_RootOrder: 0
+--- !u!1 &501668395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140264, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 501668396}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &501668396
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440276, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 501668395}
+  m_LocalRotation: {x: .149569988, y: .691106975, z: -.149569988, w: .691106975}
+  m_LocalPosition: {x: -.0194498822, y: -4.28909929e-16, z: -5.74778029e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1997388775}
+  m_RootOrder: 0
+--- !u!1 &502819974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140326, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 502819975}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &502819975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440328, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 502819974}
+  m_LocalRotation: {x: .779559612, y: .626328051, z: 3.8351531e-17, w: 4.77342605e-17}
+  m_LocalPosition: {x: -.00404735468, y: 6.02188313e-18, z: -1.74482583e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1507149753}
+  m_Father: {fileID: 1832778942}
   m_RootOrder: 0
 --- !u!1 &504214345
 GameObject:
@@ -2501,6 +3199,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 735959729}
   m_RootOrder: 0
+--- !u!1 &510090696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188468, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 510090697}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &510090697
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488462, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 510090696}
+  m_LocalRotation: {x: .0611540265, y: .896489978, z: -.161248803, w: .408123374}
+  m_LocalPosition: {x: -.00484774355, y: -1.26476453e-18, z: -9.54028759e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084152124}
+  m_RootOrder: 0
 --- !u!1 &515948688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,6 +3253,34 @@ Transform:
   m_Children:
   - {fileID: 1334039723}
   m_Father: {fileID: 1026853738}
+  m_RootOrder: 0
+--- !u!1 &525484522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140298, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 525484523}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &525484523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440304, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 525484522}
+  m_LocalRotation: {x: 0, y: -0, z: -.010419447, w: .99994576}
+  m_LocalPosition: {x: -.00403932249, y: 6.75461874e-18, z: -.00047223235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 815495131}
+  m_Father: {fileID: 1129468780}
   m_RootOrder: 0
 --- !u!1 &542340784
 GameObject:
@@ -3052,6 +3805,196 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 583780294}
+--- !u!1 &584014272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188422, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 584014273}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584014273
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488518, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 584014272}
+  m_LocalRotation: {x: -.0470802113, y: -.0920390114, z: .0435223356, w: .99368912}
+  m_LocalPosition: {x: -.0133927185, y: 3.01980666e-16, z: -3.24740223e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1235026613}
+  - {fileID: 1145919357}
+  m_Father: {fileID: 368624067}
+  m_RootOrder: 0
+--- !u!1 &585580634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188532, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 585580635}
+  - 33: {fileID: 585580640}
+  - 65: {fileID: 585580639}
+  - 23: {fileID: 585580638}
+  - 54: {fileID: 585580637}
+  - 114: {fileID: 585580636}
+  m_Layer: 0
+  m_Name: hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &585580635
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488532, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 585580634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1413309925}
+  m_RootOrder: 0
+--- !u!114 &585580636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11488420, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 585580634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca11b64c6184353ab73153a585c49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDad: {fileID: 0}
+  enemy: {fileID: 0}
+--- !u!54 &585580637
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5488418, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 585580634}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &585580638
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2388418, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 585580634}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: bb1a9f0252a224d548b726e2cb7f14e5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &585580639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6588416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 585580634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &585580640
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3388418, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 585580634}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &588999504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140274, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 588999505}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588999505
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440282, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 588999504}
+  m_LocalRotation: {x: -.00318880496, y: .0532099865, z: .551935017, w: .832181633}
+  m_LocalPosition: {x: -.00866237842, y: -4.440892e-18, z: 1.3322676e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1846329185}
+  - {fileID: 974894925}
+  m_Father: {fileID: 760120818}
+  m_RootOrder: 0
+--- !u!1 &590911308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140310, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 590911309}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &590911309
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440316, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 590911308}
+  m_LocalRotation: {x: 0, y: -0, z: -.00450436771, w: .999989867}
+  m_LocalPosition: {x: -.00419032015, y: 9.90950794e-11, z: -.000900299987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 944250513}
+  m_Father: {fileID: 956550156}
+  m_RootOrder: 0
 --- !u!1 &596010029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,6 +4022,61 @@ Transform:
   m_Children:
   - {fileID: 342953511}
   m_Father: {fileID: 5290967}
+  m_RootOrder: 0
+--- !u!1 &605476396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188454, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 605476397}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &605476397
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488498, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 605476396}
+  m_LocalRotation: {x: -.0853805095, y: -.156429827, z: .329796791, w: .927078187}
+  m_LocalPosition: {x: -.00268367468, y: -5.551115e-19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 457012823}
+  m_RootOrder: 0
+--- !u!1 &616928067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188460, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 616928068}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &616928068
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488508, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 616928067}
+  m_LocalRotation: {x: .703707278, y: .708890021, z: .00391233945, w: -.0474944487}
+  m_LocalPosition: {x: -.0143695604, y: -5.98696412e-18, z: 1.04083402e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1818270533}
+  m_Father: {fileID: 133147317}
   m_RootOrder: 0
 --- !u!1 &630988370
 GameObject:
@@ -3168,7 +4166,7 @@ Transform:
   m_Children:
   - {fileID: 384145863}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!114 &630988376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3322,6 +4320,193 @@ Transform:
   - {fileID: 1086207402}
   m_Father: {fileID: 154252940}
   m_RootOrder: 1
+--- !u!1 &642441948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188498, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 642441949}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &642441949
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488482, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 642441948}
+  m_LocalRotation: {x: .00397539977, y: .0335431024, z: -.117625326, w: .992483437}
+  m_LocalPosition: {x: -.00447357493, y: -8.881784e-18, z: 8.881784e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1844693366}
+  m_RootOrder: 0
+--- !u!1 &656482832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140320, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 656482833}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &656482833
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440268, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 656482832}
+  m_LocalRotation: {x: -.00525743328, y: -.0260741953, z: .934219599, w: .355705231}
+  m_LocalPosition: {x: -.0227393471, y: -.0111713093, z: -.0224551}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 931726923}
+  m_Father: {fileID: 921356974}
+  m_RootOrder: 4
+--- !u!1 &684238715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140250, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 684238716}
+  - 33: {fileID: 684238721}
+  - 65: {fileID: 684238720}
+  - 23: {fileID: 684238719}
+  - 54: {fileID: 684238718}
+  - 114: {fileID: 684238717}
+  m_Layer: 0
+  m_Name: hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &684238716
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440250, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 684238715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1514306776}
+  m_RootOrder: 0
+--- !u!114 &684238717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11440334, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 684238715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca11b64c6184353ab73153a585c49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDad: {fileID: 0}
+  enemy: {fileID: 0}
+--- !u!54 &684238718
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5440336, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 684238715}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &684238719
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2340336, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 684238715}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: bb1a9f0252a224d548b726e2cb7f14e5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &684238720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6540338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 684238715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &684238721
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3340336, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 684238715}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &685538550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140316, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 685538551}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &685538551
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440320, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 685538550}
+  m_LocalRotation: {x: 0, y: -0, z: -.010419447, w: .99994576}
+  m_LocalPosition: {x: -.00403932622, y: 6.54177129e-11, z: .000472199987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1604857805}
+  m_Father: {fileID: 778075421}
+  m_RootOrder: 0
 --- !u!1 &713084890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3599,6 +4784,33 @@ Prefab:
   m_RootGameObject: {fileID: 1304730373}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &733669488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140294, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 733669489}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733669489
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440302, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 733669488}
+  m_LocalRotation: {x: 0, y: -0, z: -.00240722089, w: .999997139}
+  m_LocalPosition: {x: -.00298217312, y: 2.54578582e-20, z: -4.55245633e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1914188393}
+  m_RootOrder: 0
 --- !u!1 &735959728
 GameObject:
   m_ObjectHideFlags: 0
@@ -3655,6 +4867,34 @@ Transform:
   - {fileID: 66330257}
   m_Father: {fileID: 202394330}
   m_RootOrder: 2
+--- !u!1 &760120817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140272, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 760120818}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760120818
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440280, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 760120817}
+  m_LocalRotation: {x: -.0296345092, y: -.0741439164, z: -.852358103, w: .516827047}
+  m_LocalPosition: {x: -.00979802199, y: -4.440892e-18, z: -8.881784e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 588999505}
+  m_Father: {fileID: 1265311440}
+  m_RootOrder: 0
 --- !u!1 &761252270
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,6 +4923,62 @@ Transform:
   - {fileID: 1413228433}
   m_Father: {fileID: 1079470522}
   m_RootOrder: 0
+--- !u!1 &761706180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140334, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 761706181}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &761706181
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440270, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 761706180}
+  m_LocalRotation: {x: -.458115876, y: .888892472, z: -8.24804751e-17, w: -2.63774613e-17}
+  m_LocalPosition: {x: .0151684368, y: .0115987444, z: 1.59225932e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 207916747}
+  m_Father: {fileID: 921356974}
+  m_RootOrder: 5
+--- !u!1 &778075420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140314, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 778075421}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778075421
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440314, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 778075420}
+  m_LocalRotation: {x: 0, y: 0, z: .00707992492, w: .999974966}
+  m_LocalPosition: {x: -.00258099986, y: -3.7235437e-11, z: .00154069997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 685538551}
+  m_Father: {fileID: 1481389813}
+  m_RootOrder: 1
 --- !u!1 &801291139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3725,6 +5021,33 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 801291139}
+--- !u!1 &815495130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140300, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 815495131}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &815495131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440306, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 815495130}
+  m_LocalRotation: {x: -.00406363048, y: .707095087, z: .00406363048, w: .707095087}
+  m_LocalPosition: {x: -.00644642673, y: -3.63453437e-05, z: -.000162762401}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 525484523}
+  m_RootOrder: 0
 --- !u!1 &826772167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3907,6 +5230,60 @@ Transform:
   - {fileID: 1812340973}
   m_Father: {fileID: 1948975023}
   m_RootOrder: 0
+--- !u!1 &877383814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188464, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 877383815}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877383815
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488448, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 877383814}
+  m_LocalRotation: {x: .0509771928, y: .864603281, z: -.163795352, w: .472264349}
+  m_LocalPosition: {x: -.00596764544, y: 2.02498529e-18, z: -3.08989533e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1664636249}
+  m_RootOrder: 0
+--- !u!1 &884032313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188428, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 884032314}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &884032314
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488424, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 884032313}
+  m_LocalRotation: {x: -.0127298953, y: .236153722, z: .476500303, w: .846768439}
+  m_LocalPosition: {x: -.00440673297, y: 2.35095235e-18, z: -3.7587207e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145936002}
+  m_RootOrder: 0
 --- !u!1 &886141951
 GameObject:
   m_ObjectHideFlags: 0
@@ -3937,6 +5314,33 @@ Transform:
   - {fileID: 1079470522}
   m_Father: {fileID: 2093948288}
   m_RootOrder: 0
+--- !u!1 &891482944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188436, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 891482945}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &891482945
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488416, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 891482944}
+  m_LocalRotation: {x: .0185714103, y: .123521015, z: .242561936, w: .962060988}
+  m_LocalPosition: {x: -.00671661459, y: -1.76542035e-05, z: -.000801210466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1743918132}
+  m_RootOrder: 0
 --- !u!1 &916700718
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,6 +5368,39 @@ Transform:
   m_Children:
   - {fileID: 264983888}
   m_Father: {fileID: 1413228433}
+  m_RootOrder: 0
+--- !u!1 &921356973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140256, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 921356974}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &921356974
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440256, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 921356973}
+  m_LocalRotation: {x: .341841906, y: -.618989825, z: -.341659665, w: .619083524}
+  m_LocalPosition: {x: 0, y: .0343156271, z: .00369530986}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1683272142}
+  - {fileID: 1265311440}
+  - {fileID: 2067934370}
+  - {fileID: 1873656382}
+  - {fileID: 656482833}
+  - {fileID: 761706181}
+  m_Father: {fileID: 1419054891}
   m_RootOrder: 0
 --- !u!1 &928916127
 GameObject:
@@ -4055,6 +5492,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 929735457}
+--- !u!1 &931726922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140322, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 931726923}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &931726923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440324, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 931726922}
+  m_LocalRotation: {x: .0296358354, y: .0741475001, z: -.852358222, w: .516826212}
+  m_LocalPosition: {x: -.00979801174, y: -4.440892e-18, z: 1.3322676e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1832778942}
+  m_Father: {fileID: 656482833}
+  m_RootOrder: 0
 --- !u!1 &939192349
 GameObject:
   m_ObjectHideFlags: 0
@@ -4074,7 +5539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &939192350
 Renderer:
   m_ObjectHideFlags: 0
@@ -4125,14 +5590,14 @@ Transform:
   m_PrefabInternal: {fileID: 968247265}
   m_GameObject: {fileID: 939192349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.95000005, y: 1.03999996, z: -7.4000001}
+  m_LocalPosition: {x: -.219999999, y: 1.03999996, z: -7.4000001}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children:
   - {fileID: 726482135}
   - {fileID: 294110932}
   - {fileID: 1121450610}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!114 &939192354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4170,6 +5635,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!1 &944250512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140312, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 944250513}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &944250513
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440318, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 944250512}
+  m_LocalRotation: {x: 0, y: -0, z: -.00240722089, w: .999997139}
+  m_LocalPosition: {x: -.00298216986, y: 1.34021612e-20, z: -2.51194279e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 590911309}
+  m_RootOrder: 0
 --- !u!1 &947740585
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,6 +5716,34 @@ Transform:
   m_Children:
   - {fileID: 846669217}
   m_Father: {fileID: 1020699395}
+  m_RootOrder: 0
+--- !u!1 &956550155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140308, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 956550156}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956550156
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440312, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 956550155}
+  m_LocalRotation: {x: 0, y: 0, z: .00691155111, w: .999976158}
+  m_LocalPosition: {x: -.00295830355, y: -3.95659954e-05, z: -.00301730004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 590911309}
+  m_Father: {fileID: 1481389813}
   m_RootOrder: 0
 --- !u!1 &966113768
 GameObject:
@@ -4300,7 +5820,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 467694, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.95000005
+      value: -.219999999
       objectReference: {fileID: 0}
     - target: {fileID: 467694, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4328,7 +5848,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 467694, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11467768, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
       propertyPath: enemy
@@ -4350,12 +5870,103 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1452717217}
+    - target: {fileID: 2367766, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167694, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11467764, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d60dc15f1d9d94c2a9245f7983e071e5, type: 2}
   m_RootGameObject: {fileID: 939192349}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &974894924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140280, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 974894925}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974894925
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440286, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 974894924}
+  m_LocalRotation: {x: 1.48769902e-14, y: -1.00076206e-14, z: -.186282054, w: .982496321}
+  m_LocalPosition: {x: -.000940001686, y: -.000931084447, z: .0036114566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 33455653}
+  m_Father: {fileID: 588999505}
+  m_RootOrder: 1
+--- !u!1 &980457086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188512, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 980457087}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &980457087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488440, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 980457086}
+  m_LocalRotation: {x: -2.77555809e-16, y: -2.74086336e-16, z: .194823846, w: .980838299}
+  m_LocalPosition: {x: -.00307071535, y: -8.881784e-18, z: 1.49880098e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145395127}
+  m_RootOrder: 1
+--- !u!1 &983399056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140304, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 983399057}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &983399057
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440308, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 983399056}
+  m_LocalRotation: {x: .924495578, y: .381192833, z: 9.40272415e-17, w: -1.05003048e-16}
+  m_LocalPosition: {x: -.023693407, y: .00179972046, z: -1.81423671e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1481389813}
+  m_Father: {fileID: 1873656382}
+  m_RootOrder: 0
 --- !u!1 &988784761
 GameObject:
   m_ObjectHideFlags: 0
@@ -4456,7 +6067,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
 --- !u!1 &1020699394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4513,6 +6124,36 @@ Transform:
   - {fileID: 515948689}
   m_Father: {fileID: 2093948288}
   m_RootOrder: 1
+--- !u!1 &1031310156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188504, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1031310157}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1031310157
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488488, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1031310156}
+  m_LocalRotation: {x: .0752558038, y: .392410547, z: .29545325, w: .86778909}
+  m_LocalPosition: {x: -.0178003665, y: 1.7763568e-17, z: -8.881784e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1811422136}
+  - {fileID: 479137840}
+  - {fileID: 1546708419}
+  m_Father: {fileID: 57026841}
+  m_RootOrder: 0
 --- !u!1 &1031512500
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,6 +6478,34 @@ Transform:
   - {fileID: 761252271}
   m_Father: {fileID: 886141952}
   m_RootOrder: 2
+--- !u!1 &1080341345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188442, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1080341346}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080341346
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488430, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1080341345}
+  m_LocalRotation: {x: .707146764, y: .705444694, z: -.0038767776, w: .0477113761}
+  m_LocalPosition: {x: -.0143695427, y: -1.40512592e-17, z: -1.3877787e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 501172113}
+  m_Father: {fileID: 2048137353}
+  m_RootOrder: 0
 --- !u!1 &1086044746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5071,6 +6740,33 @@ Transform:
   - {fileID: 1122550638}
   m_Father: {fileID: 464034367}
   m_RootOrder: 0
+--- !u!1 &1112421476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188494, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1112421477}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112421477
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488478, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1112421476}
+  m_LocalRotation: {x: -.00725498563, y: -.0441396907, z: -.16202569, w: .985772192}
+  m_LocalPosition: {x: -.00589032285, y: -4.440892e-18, z: 9.99200679e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1662867749}
+  m_RootOrder: 0
 --- !u!1 &1113067461
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,6 +6980,89 @@ Transform:
   - {fileID: 1948975023}
   m_Father: {fileID: 1092220111}
   m_RootOrder: 0
+--- !u!1 &1129363677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188490, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1129363678}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1129363678
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488474, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1129363677}
+  m_LocalRotation: {x: .00881528202, y: .0719912127, z: -.121221513, w: .989972174}
+  m_LocalPosition: {x: -.00484781479, y: 9.04798278e-18, z: 9.61981843e-20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 479137840}
+  m_RootOrder: 0
+--- !u!1 &1129468779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140296, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1129468780}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1129468780
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440298, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1129468779}
+  m_LocalRotation: {x: 0, y: 0, z: .00707992492, w: .999974966}
+  m_LocalPosition: {x: -.00258100056, y: 1.48338713e-19, z: -.00154066633}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 525484523}
+  m_Father: {fileID: 494220042}
+  m_RootOrder: 1
+--- !u!1 &1133704953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188484, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1133704954}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1133704954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488468, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1133704953}
+  m_LocalRotation: {x: .0879213661, y: .795153379, z: .00391415553, w: .599988043}
+  m_LocalPosition: {x: .000995005947, y: .00472159823, z: .00361914467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1601979700}
+  m_Father: {fileID: 1576737181}
+  m_RootOrder: 2
 --- !u!1 &1134617069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,6 +7185,36 @@ Transform:
   - {fileID: 1058688582}
   m_Father: {fileID: 148887617}
   m_RootOrder: 3
+--- !u!1 &1145395126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188516, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1145395127}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145395127
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488442, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1145395126}
+  m_LocalRotation: {x: -2.2759572e-15, y: -7.14706125e-16, z: .537302375, w: .84338969}
+  m_LocalPosition: {x: -.00570869213, y: -6.1062266e-18, z: 7.91033895e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1809656319}
+  - {fileID: 980457087}
+  - {fileID: 1552001758}
+  m_Father: {fileID: 1461806194}
+  m_RootOrder: 0
 --- !u!1 &1145876514
 GameObject:
   m_ObjectHideFlags: 0
@@ -5433,6 +7242,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 264983888}
   m_RootOrder: 0
+--- !u!1 &1145919356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188418, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1145919357}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145919357
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488514, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1145919356}
+  m_LocalRotation: {x: -.0307850763, y: -.0986914635, z: -.211453691, w: .971905172}
+  m_LocalPosition: {x: -.0133930072, y: .00334365759, z: -7.77156104e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1191530202}
+  m_Father: {fileID: 584014273}
+  m_RootOrder: 1
+--- !u!1 &1145936001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188430, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1145936002}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145936002
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488426, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1145936001}
+  m_LocalRotation: {x: -.0331948251, y: -.398175746, z: -.554480612, w: .730003715}
+  m_LocalPosition: {x: -.00404343009, y: -.00171603763, z: -.00401402637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 884032314}
+  m_Father: {fileID: 501172113}
+  m_RootOrder: 2
 --- !u!1 &1147517393
 GameObject:
   m_ObjectHideFlags: 0
@@ -5462,6 +7327,121 @@ Transform:
   - {fileID: 369242005}
   m_Father: {fileID: 1811930249}
   m_RootOrder: 0
+--- !u!1 &1174247249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188526, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1174247250}
+  - 137: {fileID: 1174247251}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1174247250
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488526, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1174247249}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 345627034}
+  m_RootOrder: 0
+--- !u!137 &1174247251
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13788416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1174247249}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 34c2d385ef75b484bb65cb1b6b6589ae, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: ea144915146a44ac39811f0bf3f6a36c, type: 3}
+  m_Bones:
+  - {fileID: 93169363}
+  - {fileID: 215675852}
+  - {fileID: 368624067}
+  - {fileID: 584014273}
+  - {fileID: 1235026613}
+  - {fileID: 1145919357}
+  - {fileID: 1191530202}
+  - {fileID: 133147317}
+  - {fileID: 616928068}
+  - {fileID: 1818270533}
+  - {fileID: 1241289404}
+  - {fileID: 55820958}
+  - {fileID: 457012823}
+  - {fileID: 605476397}
+  - {fileID: 103283467}
+  - {fileID: 1677941968}
+  - {fileID: 1576737181}
+  - {fileID: 57026841}
+  - {fileID: 1031310157}
+  - {fileID: 1811422136}
+  - {fileID: 1844693366}
+  - {fileID: 642441949}
+  - {fileID: 1662867749}
+  - {fileID: 1112421477}
+  - {fileID: 479137840}
+  - {fileID: 1129363678}
+  - {fileID: 1546708419}
+  - {fileID: 2030874577}
+  - {fileID: 1133704954}
+  - {fileID: 1601979700}
+  - {fileID: 2084152124}
+  - {fileID: 510090697}
+  - {fileID: 1544218259}
+  - {fileID: 1352271229}
+  - {fileID: 426224025}
+  - {fileID: 1797643814}
+  - {fileID: 32177964}
+  - {fileID: 1664636249}
+  - {fileID: 877383815}
+  - {fileID: 2031313482}
+  - {fileID: 1461806194}
+  - {fileID: 1145395127}
+  - {fileID: 980457087}
+  - {fileID: 1809656319}
+  - {fileID: 1552001758}
+  - {fileID: 400582702}
+  - {fileID: 2048137353}
+  - {fileID: 1080341346}
+  - {fileID: 501172113}
+  - {fileID: 1145936002}
+  - {fileID: 884032314}
+  - {fileID: 1332782278}
+  - {fileID: 454657244}
+  - {fileID: 1743918132}
+  - {fileID: 891482945}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 93169363}
+  m_AABB:
+    m_Center: {x: -.0084098801, y: .00271261856, z: -.000194145367}
+    m_Extent: {x: .0519354194, y: .049211774, z: .0488042757}
+  m_DirtyAABB: 0
 --- !u!1 &1175777837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5603,6 +7583,33 @@ Transform:
   - {fileID: 1265927581}
   m_Father: {fileID: 355895941}
   m_RootOrder: 0
+--- !u!1 &1191530201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188416, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1191530202}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1191530202
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488512, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1191530201}
+  m_LocalRotation: {x: -.107012011, y: .988868415, z: -.0201268997, w: .101403311}
+  m_LocalPosition: {x: -.00577944797, y: 4.440892e-18, z: -5.77315952e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145919357}
+  m_RootOrder: 0
 --- !u!1 &1195440116
 GameObject:
   m_ObjectHideFlags: 0
@@ -5743,6 +7750,61 @@ Transform:
   - {fileID: 1809637321}
   m_Father: {fileID: 154252940}
   m_RootOrder: 0
+--- !u!1 &1235026612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188420, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1235026613}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1235026613
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488516, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1235026612}
+  m_LocalRotation: {x: -1.11022302e-15, y: 3.79557497e-15, z: -.120051898, w: .992767632}
+  m_LocalPosition: {x: -.00757590914, y: -4.440892e-18, z: -4.88498128e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 584014273}
+  m_RootOrder: 0
+--- !u!1 &1241289403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188448, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1241289404}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1241289404
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488504, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1241289403}
+  m_LocalRotation: {x: -.0130418856, y: -.156437933, z: -.59736079, w: .786458611}
+  m_LocalPosition: {x: -.00595033029, y: 1.30199056e-18, z: -1.9680248e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 55820958}
+  m_Father: {fileID: 1818270533}
+  m_RootOrder: 2
 --- !u!1 &1245429625
 GameObject:
   m_ObjectHideFlags: 0
@@ -5949,6 +8011,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1265042107}
+--- !u!1 &1265311439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140270, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1265311440}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1265311440
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440262, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1265311439}
+  m_LocalRotation: {x: .00525726704, y: .026073359, z: .934219718, w: .355704993}
+  m_LocalPosition: {x: -.0227393936, y: -.0111712907, z: .0224550813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 760120818}
+  m_Father: {fileID: 921356974}
+  m_RootOrder: 1
 --- !u!1 &1265927580
 GameObject:
   m_ObjectHideFlags: 0
@@ -5977,6 +8067,33 @@ Transform:
   - {fileID: 423092258}
   m_Father: {fileID: 1190015850}
   m_RootOrder: 1
+--- !u!1 &1289083912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140338, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1289083913}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1289083913
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440338, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1289083912}
+  m_LocalRotation: {x: -.621227622, y: .78361249, z: -.00491690123, w: -.00188626128}
+  m_LocalPosition: {x: -.00848079566, y: 2.22044592e-17, z: -2.45897056e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 207916747}
+  m_RootOrder: 0
 --- !u!1 &1299411800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6366,6 +8483,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1325249659}
+--- !u!1 &1332782277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188434, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1332782278}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1332782278
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488422, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1332782277}
+  m_LocalRotation: {x: .383460552, y: .80860281, z: -.13075228, w: .426641941}
+  m_LocalPosition: {x: .000120812612, y: -.00130013458, z: .00194486871}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 454657244}
+  m_Father: {fileID: 501172113}
+  m_RootOrder: 1
 --- !u!1 &1333438973
 GameObject:
   m_ObjectHideFlags: 0
@@ -6683,7 +8828,7 @@ Transform:
   m_LocalScale: {x: 1.29999995, y: 1.29999995, z: .449999988}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!82 &1343910484
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6742,6 +8887,34 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!1 &1352271228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188478, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1352271229}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352271229
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488458, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1352271228}
+  m_LocalRotation: {x: -.100267075, y: -.362744212, z: -.0312605873, w: .925951362}
+  m_LocalPosition: {x: -.00361990766, y: 8.881784e-18, z: -7.2164494e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 426224025}
+  m_Father: {fileID: 1544218259}
+  m_RootOrder: 0
 --- !u!1 &1377041983
 GameObject:
   m_ObjectHideFlags: 0
@@ -6784,6 +8957,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1377041983}
+--- !u!1 &1398096307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140286, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1398096308}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1398096308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440292, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1398096307}
+  m_LocalRotation: {x: .885201514, y: .465207815, z: -3.24626494e-18, w: 7.08793729e-17}
+  m_LocalPosition: {x: -.0236934423, y: .0017997066, z: -1.804249e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 494220042}
+  m_Father: {fileID: 2067934370}
+  m_RootOrder: 0
 --- !u!1 &1413228432
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,6 +9013,278 @@ Transform:
   - {fileID: 916700719}
   m_Father: {fileID: 761252271}
   m_RootOrder: 0
+--- !u!1 &1413309924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1413309925}
+  - 33: {fileID: 1413309932}
+  - 23: {fileID: 1413309931}
+  - 114: {fileID: 1413309930}
+  - 54: {fileID: 1413309929}
+  - 136: {fileID: 1413309928}
+  - 114: {fileID: 1413309927}
+  - 114: {fileID: 1413309926}
+  m_Layer: 0
+  m_Name: SpeedyPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1413309925
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
+  m_LocalPosition: {x: 1.95000005, y: 1.03999996, z: -7.4000001}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_Children:
+  - {fileID: 585580635}
+  - {fileID: 345627034}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+--- !u!114 &1413309926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11488416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerID: 0
+  walkSpeed: .200000003
+  forwardDash: 1
+  backDash: .800000012
+  jumpFactor: .600000024
+  myLimb: {fileID: 585580636}
+  opponent: {fileID: 0}
+  healthBar: {fileID: 0}
+--- !u!114 &1413309927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11488418, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerID: 0
+  walkSpeed: .200000003
+  forwardDash: 1
+  backDash: .800000012
+  jumpFactor: .600000024
+  myLimb: {fileID: 585580636}
+  opponent: {fileID: 0}
+  healthBar: {fileID: 0}
+--- !u!136 &1413309928
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13688416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 1.5
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1413309929
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5488416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
+--- !u!114 &1413309930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11494160, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c0aad34d87448f9a6efc903aca108c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerID: 1
+  walkSpeed: .300000012
+  forwardDash: 1.20000005
+  backDash: .800000012
+  jumpFactor: .600000024
+  myLimb: {fileID: 585580636}
+  opponent: {fileID: 1514306775}
+  healthBar: {fileID: 1116896054}
+--- !u!23 &1413309931
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2388416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: bb1a9f0252a224d548b726e2cb7f14e5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1413309932
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3388416, guid: aa3ab69997b6d42e4a193e7217472eca,
+    type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1413309924}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1419054890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140254, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1419054891}
+  - 111: {fileID: 1419054892}
+  m_Layer: 0
+  m_Name: Rex 3.2.15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1419054891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440254, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1419054890}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -.119999997, y: -.400000006, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children:
+  - {fileID: 921356974}
+  - {fileID: 2118597468}
+  m_Father: {fileID: 1514306776}
+  m_RootOrder: 1
+--- !u!111 &1419054892
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11140338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1419054890}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400002, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400004, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400006, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400008, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400010, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400012, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400014, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400016, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400018, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400020, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  - {fileID: 7400022, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!1001 &1426478490
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.95000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.03999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -7.4000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11440336, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: walkSpeed
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 11440336, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: forwardDash
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 11440336, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: opponent
+      value: 
+      objectReference: {fileID: 1413309924}
+    - target: {fileID: 11440336, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1452717217}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_RootGameObject: {fileID: 1514306775}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1427105001
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,6 +9386,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1452717215}
+--- !u!1 &1461806193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188518, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1461806194}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461806194
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488444, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1461806193}
+  m_LocalRotation: {x: .963397503, y: -.268077135, z: -7.28309951e-16, w: -1.39102371e-16}
+  m_LocalPosition: {x: -.00930468272, y: 8.881784e-18, z: 1.02695631e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1145395127}
+  m_Father: {fileID: 2031313482}
+  m_RootOrder: 0
 --- !u!1 &1467393172
 GameObject:
   m_ObjectHideFlags: 0
@@ -7081,6 +9582,35 @@ Transform:
   - {fileID: 1816346338}
   m_Father: {fileID: 2093948288}
   m_RootOrder: 3
+--- !u!1 &1481389812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140306, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1481389813}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481389813
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440310, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1481389812}
+  m_LocalRotation: {x: 0, y: -0, z: -.643968284, w: .765052199}
+  m_LocalPosition: {x: -.014665382, y: .00148390338, z: -8.881784e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 956550156}
+  - {fileID: 778075421}
+  m_Father: {fileID: 983399057}
+  m_RootOrder: 0
 --- !u!1 &1487456863
 GameObject:
   m_ObjectHideFlags: 0
@@ -7288,6 +9818,167 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1498179125}
+--- !u!1 &1507149752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140328, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1507149753}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1507149753
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440332, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1507149752}
+  m_LocalRotation: {x: -.417202175, y: -.570913613, z: -.417202175, w: .570913613}
+  m_LocalPosition: {x: -.00313000637, y: 4.2453312e-18, z: -1.59459535e-24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 502819975}
+  m_RootOrder: 0
+--- !u!1 &1514306775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1514306776}
+  - 33: {fileID: 1514306782}
+  - 23: {fileID: 1514306781}
+  - 114: {fileID: 1514306780}
+  - 54: {fileID: 1514306779}
+  - 136: {fileID: 1514306778}
+  - 114: {fileID: 1514306777}
+  m_Layer: 0
+  m_Name: RexPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1514306776
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440252, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.95000005, y: 1.03999996, z: -7.4000001}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_Children:
+  - {fileID: 684238716}
+  - {fileID: 1419054891}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &1514306777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11440338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerID: 0
+  walkSpeed: .200000003
+  forwardDash: 1
+  backDash: .800000012
+  jumpFactor: .600000024
+  myLimb: {fileID: 684238717}
+  opponent: {fileID: 0}
+  healthBar: {fileID: 0}
+--- !u!136 &1514306778
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13640338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 1.5
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1514306779
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5440338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
+--- !u!114 &1514306780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11440336, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b99431df70eb4f39bd335332eadb075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerID: 0
+  walkSpeed: .200000003
+  forwardDash: .800000012
+  backDash: .800000012
+  jumpFactor: .600000024
+  myLimb: {fileID: 684238717}
+  opponent: {fileID: 1413309924}
+  healthBar: {fileID: 1452717217}
+--- !u!23 &1514306781
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2340338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: bb1a9f0252a224d548b726e2cb7f14e5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1514306782
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3340338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1514306775}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1515652979
 GameObject:
   m_ObjectHideFlags: 0
@@ -7501,6 +10192,91 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1541955365}
+--- !u!1 &1544218258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188480, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1544218259}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1544218259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488460, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1544218258}
+  m_LocalRotation: {x: -.0270604454, y: -.114072897, z: .0699671209, w: .990636051}
+  m_LocalPosition: {x: -.014658941, y: .000410418899, z: .00195642607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1352271229}
+  - {fileID: 1797643814}
+  m_Father: {fileID: 1601979700}
+  m_RootOrder: 0
+--- !u!1 &1546708418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188488, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1546708419}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1546708419
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488472, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1546708418}
+  m_LocalRotation: {x: .103784323, y: .541786611, z: .0467213541, w: .832774401}
+  m_LocalPosition: {x: -.011819792, y: -.000400407793, z: .000708863663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2030874577}
+  m_Father: {fileID: 1031310157}
+  m_RootOrder: 2
+--- !u!1 &1552001757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188510, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1552001758}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1552001758
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488436, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1552001757}
+  m_LocalRotation: {x: -.443243712, y: .896401167, z: -8.20295889e-17, w: -2.77478895e-17}
+  m_LocalPosition: {x: -.0028761311, y: .00382007286, z: 1.11022296e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400582702}
+  m_Father: {fileID: 1145395127}
+  m_RootOrder: 2
 --- !u!1 &1565540671
 GameObject:
   m_ObjectHideFlags: 0
@@ -7555,6 +10331,36 @@ Transform:
   m_Children:
   - {fileID: 1487456864}
   m_Father: {fileID: 250191689}
+  m_RootOrder: 0
+--- !u!1 &1576737180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188522, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1576737181}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1576737181
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488492, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1576737180}
+  m_LocalRotation: {x: .0538954102, y: -.548224092, z: -.395470202, w: .734948277}
+  m_LocalPosition: {x: .0122821499, y: -.00126034475, z: 1.110223e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2031313482}
+  - {fileID: 57026841}
+  - {fileID: 1133704954}
+  m_Father: {fileID: 93169363}
   m_RootOrder: 0
 --- !u!1 &1587950386
 GameObject:
@@ -7645,6 +10451,63 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1596300565}
+--- !u!1 &1601979699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188482, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1601979700}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1601979700
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488466, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1601979699}
+  m_LocalRotation: {x: -.087340422, y: -.44842425, z: .255660713, w: .852012277}
+  m_LocalPosition: {x: -.0178003944, y: 8.881784e-18, z: -6.661338e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1544218259}
+  - {fileID: 2084152124}
+  - {fileID: 1664636249}
+  m_Father: {fileID: 1133704954}
+  m_RootOrder: 0
+--- !u!1 &1604857804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140318, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1604857805}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1604857805
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440322, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1604857804}
+  m_LocalRotation: {x: -.00406363048, y: .707095087, z: .00406363048, w: .707095087}
+  m_LocalPosition: {x: -.00644642813, y: -3.63453801e-05, z: .000162799988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 685538551}
+  m_RootOrder: 0
 --- !u!1 &1609893300
 GameObject:
   m_ObjectHideFlags: 0
@@ -8427,6 +11290,62 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1635366320}
+--- !u!1 &1662867748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188496, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1662867749}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1662867749
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488480, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1662867748}
+  m_LocalRotation: {x: .0448126979, y: .137699053, z: .0110678393, w: .989397943}
+  m_LocalPosition: {x: -.00690215034, y: .0012412268, z: -.00154181279}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1112421477}
+  m_Father: {fileID: 1811422136}
+  m_RootOrder: 1
+--- !u!1 &1664636248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188466, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1664636249}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1664636249
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488450, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1664636248}
+  m_LocalRotation: {x: .00662208628, y: -.476374984, z: .094885245, w: .874082267}
+  m_LocalPosition: {x: -.0118168732, y: -5.69678486e-05, z: .000853420643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 877383815}
+  m_Father: {fileID: 1601979700}
+  m_RootOrder: 2
 --- !u!1 &1672152886
 GameObject:
   m_ObjectHideFlags: 0
@@ -8483,6 +11402,62 @@ Transform:
   - {fileID: 1136803947}
   m_Father: {fileID: 202394330}
   m_RootOrder: 1
+--- !u!1 &1677941967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188450, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1677941968}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1677941968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488494, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1677941967}
+  m_LocalRotation: {x: .010361243, y: .0693403482, z: .244749382, w: .967048287}
+  m_LocalPosition: {x: -.00679061702, y: 1.43439942e-18, z: 2.91433535e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 103283467}
+  m_RootOrder: 0
+--- !u!1 &1683272141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140260, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1683272142}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683272142
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440260, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1683272141}
+  m_LocalRotation: {x: .000404406397, y: .000104359715, z: .655549824, w: .755151808}
+  m_LocalPosition: {x: -.0334428102, y: 0, z: -2.85600518e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1997388775}
+  - {fileID: 497988399}
+  m_Father: {fileID: 921356974}
+  m_RootOrder: 0
 --- !u!1 &1726900324
 GameObject:
   m_ObjectHideFlags: 0
@@ -8615,6 +11590,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1729299188}
+--- !u!1 &1743918131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188438, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1743918132}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1743918132
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488418, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1743918131}
+  m_LocalRotation: {x: -.0313252024, y: -.161597267, z: -.390018493, w: .905974984}
+  m_LocalPosition: {x: -.0033916086, y: .00063188083, z: .000538595312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 891482945}
+  m_Father: {fileID: 501172113}
+  m_RootOrder: 0
 --- !u!1 &1747798974
 GameObject:
   m_ObjectHideFlags: 0
@@ -8770,6 +11773,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1757544650}
+--- !u!1 &1757676000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140330, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1757676001}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757676001
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440330, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1757676000}
+  m_LocalRotation: {x: 1.58206781e-15, y: -1.25767452e-15, z: -.186294094, w: .982493997}
+  m_LocalPosition: {x: -.000939963385, y: -.00093110773, z: -.00361149991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1765845562}
+  m_Father: {fileID: 1832778942}
+  m_RootOrder: 1
 --- !u!1 &1760589950
 GameObject:
   m_ObjectHideFlags: 0
@@ -8832,6 +11863,61 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1760589950}
+--- !u!1 &1765845561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140332, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1765845562}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765845562
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440334, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1765845561}
+  m_LocalRotation: {x: 0, y: 0, z: .186290994, w: .982494652}
+  m_LocalPosition: {x: -.00201098179, y: -5.94316862e-18, z: 4.440892e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1757676001}
+  m_RootOrder: 0
+--- !u!1 &1797643813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188474, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1797643814}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1797643814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488454, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1797643813}
+  m_LocalRotation: {x: -.0448114127, y: -.137698084, z: .011077947, w: .989398062}
+  m_LocalPosition: {x: -.00690213684, y: .00124109979, z: .00154188077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 32177964}
+  m_Father: {fileID: 1544218259}
+  m_RootOrder: 1
 --- !u!1 &1809637320
 GameObject:
   m_ObjectHideFlags: 0
@@ -8858,6 +11944,62 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1231547214}
+  m_RootOrder: 0
+--- !u!1 &1809656318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188514, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1809656319}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1809656319
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488438, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1809656318}
+  m_LocalRotation: {x: -4.30211449e-16, y: -2.32019291e-16, z: .108057559, w: .994144678}
+  m_LocalPosition: {x: -.00232285704, y: -.00186606939, z: 1.27675642e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145395127}
+  m_RootOrder: 0
+--- !u!1 &1811422135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188502, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1811422136}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1811422136
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488486, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1811422135}
+  m_LocalRotation: {x: .0397180319, y: .179015368, z: .0835665315, w: .979485929}
+  m_LocalPosition: {x: -.0147945853, y: 1.3322676e-17, z: 8.881784e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1844693366}
+  - {fileID: 1662867749}
+  m_Father: {fileID: 1031310157}
   m_RootOrder: 0
 --- !u!1 &1811930248
 GameObject:
@@ -8970,6 +12112,121 @@ Transform:
   m_Children:
   - {fileID: 579465201}
   m_Father: {fileID: 1480161085}
+  m_RootOrder: 0
+--- !u!1 &1818270532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188458, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1818270533}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818270533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488506, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1818270532}
+  m_LocalRotation: {x: .109907903, y: .149747953, z: -.0696235001, w: .980126739}
+  m_LocalPosition: {x: -.0169795696, y: -5.27922962e-18, z: -4.16333609e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 457012823}
+  - {fileID: 103283467}
+  - {fileID: 1241289404}
+  m_Father: {fileID: 616928068}
+  m_RootOrder: 0
+--- !u!1 &1832778941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140324, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1832778942}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1832778942
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440326, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1832778941}
+  m_LocalRotation: {x: .00318886829, y: -.0532129668, z: .551938415, w: .832179189}
+  m_LocalPosition: {x: -.00866243895, y: 2.6645352e-17, z: -1.3322676e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 502819975}
+  - {fileID: 1757676001}
+  m_Father: {fileID: 931726923}
+  m_RootOrder: 0
+--- !u!1 &1844693365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188500, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1844693366}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844693366
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488484, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 1844693365}
+  m_LocalRotation: {x: .100270234, y: .362743616, z: -.0312680602, w: .925951004}
+  m_LocalPosition: {x: -.00361991138, y: -1.3322676e-17, z: 1.61676223e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 642441949}
+  m_Father: {fileID: 1811422136}
+  m_RootOrder: 0
+--- !u!1 &1846329184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140276, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1846329185}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846329185
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440284, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1846329184}
+  m_LocalRotation: {x: .779556215, y: .626332223, z: 3.8351789e-17, w: 4.77340521e-17}
+  m_LocalPosition: {x: -.00404739566, y: 6.475607e-18, z: 6.92602876e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 331457397}
+  m_Father: {fileID: 588999505}
   m_RootOrder: 0
 --- !u!1 &1860862691
 GameObject:
@@ -9101,6 +12358,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1869813706}
+--- !u!1 &1873656381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140302, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1873656382}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1873656382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440266, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1873656381}
+  m_LocalRotation: {x: -.0231415257, y: .998060703, z: .0558188856, w: .014950702}
+  m_LocalPosition: {x: 7.04740087e-05, y: -.00335897948, z: -.0210053995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 983399057}
+  m_Father: {fileID: 921356974}
+  m_RootOrder: 3
 --- !u!1 &1877748770
 GameObject:
   m_ObjectHideFlags: 0
@@ -9461,6 +12746,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1910729896}
+--- !u!1 &1914188392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140292, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1914188393}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914188393
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440300, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1914188392}
+  m_LocalRotation: {x: 0, y: -0, z: -.00450436771, w: .999989867}
+  m_LocalPosition: {x: -.00419031177, y: -1.06697727e-18, z: .000900314655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 733669489}
+  m_Father: {fileID: 95435363}
+  m_RootOrder: 0
 --- !u!1 &1922897897
 GameObject:
   m_ObjectHideFlags: 0
@@ -9884,6 +13197,34 @@ SkinnedMeshRenderer:
     m_Center: {x: -.0162751079, y: -.00460834987, z: -.00178119168}
     m_Extent: {x: .0666195303, y: .0382227302, z: .0391012989}
   m_DirtyAABB: 0
+--- !u!1 &1997388774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140262, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1997388775}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1997388775
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440272, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 1997388774}
+  m_LocalRotation: {x: 1.52655666e-16, y: -2.74086283e-16, z: .0422600284, w: .999106646}
+  m_LocalPosition: {x: -.0171252061, y: 1.7763568e-17, z: -7.04297721e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 501668396}
+  m_Father: {fileID: 1683272142}
+  m_RootOrder: 0
 --- !u!1 &2006955885
 GameObject:
   m_ObjectHideFlags: 0
@@ -9968,6 +13309,141 @@ Transform:
   - {fileID: 198739522}
   m_Father: {fileID: 2118976738}
   m_RootOrder: 0
+--- !u!1 &2030874576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188486, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2030874577}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2030874577
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488470, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 2030874576}
+  m_LocalRotation: {x: .00363018154, y: .0294479858, z: -.122294359, w: .99205029}
+  m_LocalPosition: {x: -.00596759561, y: 4.24072049e-18, z: 1.48960577e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1546708419}
+  m_RootOrder: 0
+--- !u!1 &2031313481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188520, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2031313482}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031313482
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488446, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 2031313481}
+  m_LocalRotation: {x: -.424846411, y: .35065639, z: -.237954214, w: .799952149}
+  m_LocalPosition: {x: -.00138591579, y: .00417651143, z: -.00275792531}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1461806194}
+  m_Father: {fileID: 1576737181}
+  m_RootOrder: 0
+--- !u!1001 &2036068439
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.95000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.03999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -7.4000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 488530, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 488430, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .707146704
+      objectReference: {fileID: 0}
+    - target: {fileID: 488430, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .705444634
+      objectReference: {fileID: 0}
+    - target: {fileID: 488430, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.00387677737
+      objectReference: {fileID: 0}
+    - target: {fileID: 488430, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .0477113724
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494160, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1116896054}
+    - target: {fileID: 11494160, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: opponent
+      value: 
+      objectReference: {fileID: 1514306775}
+    - target: {fileID: 11494160, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: walkSpeed
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494160, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: forwardDash
+      value: 1.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494160, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+      propertyPath: playerID
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_RootGameObject: {fileID: 1413309924}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2036816482
 GameObject:
   m_ObjectHideFlags: 0
@@ -10061,6 +13537,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495165380}
   m_RootOrder: 0
+--- !u!1 &2048137352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188444, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2048137353}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048137353
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488432, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 2048137352}
+  m_LocalRotation: {x: -.0349174365, y: -.0371290445, z: .234119952, w: .970870793}
+  m_LocalPosition: {x: -.00205760752, y: -.000617166457, z: .00684593013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1080341346}
+  m_Father: {fileID: 93169363}
+  m_RootOrder: 2
 --- !u!1 &2059423743
 GameObject:
   m_ObjectHideFlags: 0
@@ -10089,6 +13593,34 @@ Transform:
   - {fileID: 194653764}
   m_Father: {fileID: 17643595}
   m_RootOrder: 1
+--- !u!1 &2067934369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140284, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2067934370}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2067934370
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440264, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 2067934369}
+  m_LocalRotation: {x: .0601185635, y: .991221368, z: -.108215638, w: -.046425771}
+  m_LocalPosition: {x: 7.04643098e-05, y: -.00335897389, z: .021005366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1398096308}
+  m_Father: {fileID: 921356974}
+  m_RootOrder: 2
 --- !u!1 &2078533139
 GameObject:
   m_ObjectHideFlags: 0
@@ -10182,6 +13714,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2006955886}
   m_RootOrder: 0
+--- !u!1 &2084152123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188470, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2084152124}
+  m_Layer: 0
+  m_Name: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084152124
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488464, guid: aa3ab69997b6d42e4a193e7217472eca, type: 2}
+  m_PrefabInternal: {fileID: 2036068439}
+  m_GameObject: {fileID: 2084152123}
+  m_LocalRotation: {x: .00535830483, y: -.488984495, z: .0964796618, w: .866923988}
+  m_LocalPosition: {x: -.00516355364, y: 6.44519198e-18, z: -5.57000346e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 510090697}
+  m_Father: {fileID: 1601979700}
+  m_RootOrder: 1
 --- !u!1 &2093948287
 GameObject:
   m_ObjectHideFlags: 0
@@ -10364,6 +13924,107 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2114247719}
+--- !u!1 &2118597467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140258, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2118597468}
+  - 137: {fileID: 2118597469}
+  m_Layer: 0
+  m_Name: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2118597468
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440258, guid: 11c82681dbe6f463a939eaac13281a6f, type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 2118597467}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1419054891}
+  m_RootOrder: 1
+--- !u!137 &2118597469
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13740338, guid: 11c82681dbe6f463a939eaac13281a6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426478490}
+  m_GameObject: {fileID: 2118597467}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 23a643975901f4f9c9dc731f2edfdfdf, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 906fc432fe13147399e0861a70529b41, type: 3}
+  m_Bones:
+  - {fileID: 921356974}
+  - {fileID: 1683272142}
+  - {fileID: 1997388775}
+  - {fileID: 501668396}
+  - {fileID: 497988399}
+  - {fileID: 242237191}
+  - {fileID: 761706181}
+  - {fileID: 207916747}
+  - {fileID: 1289083913}
+  - {fileID: 1265311440}
+  - {fileID: 760120818}
+  - {fileID: 588999505}
+  - {fileID: 1846329185}
+  - {fileID: 331457397}
+  - {fileID: 974894925}
+  - {fileID: 33455653}
+  - {fileID: 656482833}
+  - {fileID: 931726923}
+  - {fileID: 1832778942}
+  - {fileID: 502819975}
+  - {fileID: 1507149753}
+  - {fileID: 1757676001}
+  - {fileID: 1765845562}
+  - {fileID: 1873656382}
+  - {fileID: 983399057}
+  - {fileID: 1481389813}
+  - {fileID: 778075421}
+  - {fileID: 685538551}
+  - {fileID: 1604857805}
+  - {fileID: 956550156}
+  - {fileID: 590911309}
+  - {fileID: 944250513}
+  - {fileID: 2067934370}
+  - {fileID: 1398096308}
+  - {fileID: 494220042}
+  - {fileID: 1129468780}
+  - {fileID: 525484523}
+  - {fileID: 815495131}
+  - {fileID: 95435363}
+  - {fileID: 1914188393}
+  - {fileID: 733669489}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 921356974}
+  m_AABB:
+    m_Center: {x: -.0220161583, y: -.00732794218, z: .00317919627}
+    m_Extent: {x: .063784346, y: .0441459939, z: .0330513231}
+  m_DirtyAABB: 0
 --- !u!1 &2118976737
 GameObject:
   m_ObjectHideFlags: 0
@@ -10479,7 +14140,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v0.7
+  m_Text: v0.8
 --- !u!222 &2146413138
 CanvasRenderer:
   m_ObjectHideFlags: 0

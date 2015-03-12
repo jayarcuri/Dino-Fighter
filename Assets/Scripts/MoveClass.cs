@@ -7,6 +7,7 @@ public class MoveClass
 	public int framesLeft; //number of blocks a move takes
 	public int[] activeFrames; //each part of the array is one frame where the attack can hurt, 
 	//and the number of that element is what frame it occurs on
+	public int recovery;
 	public int priority; //unimplemented
 	public int hitStun; //how many blocks to queue on opponent if hit
 	public int bStun; //HitAdv but for blocking the move
@@ -14,7 +15,7 @@ public class MoveClass
 	public float kB; //total distance a character should move when hit
 	public float range; //range of hitbox
 	public int initialFrames;
-	public int playerID { get; set; }//ID for player who started move
+	public int playerID;//ID for player who started move
 
 
 	public MoveClass(string name){
@@ -27,6 +28,7 @@ public class MoveClass
 		dmg = 0;
 		kB = 0;
 		this.range = 0;
+		recovery = 0;
 	}
 
 	public MoveClass(string name, int frames){
@@ -39,6 +41,7 @@ public class MoveClass
 		dmg = 0;
 		kB = 0;
 		this.range = 0;
+		recovery = 0;
 	}
 
 	public MoveClass(MoveClass copy){
@@ -51,6 +54,7 @@ public class MoveClass
 		dmg = copy.dmg;
 		kB = copy.kB;
 		this.range = copy.range;
+		this.recovery = copy.recovery;
 	}
 
 	public MoveClass(string name, int frames, int[] activeFrames, int hitAdv, int blockAdv, 
@@ -64,6 +68,8 @@ public class MoveClass
 		dmg = damage;
 		kB = knockBack;
 		this.range = range;
+		if (activeFrames.Length > 0)
+			recovery = initialFrames - activeFrames [activeFrames.Length - 1];
 	}
 
 	public MoveClass(string name, int initialFrames, int[] activeFrames, int hitAdv, int blockAdv, 
@@ -78,6 +84,8 @@ public class MoveClass
 		kB = knockBack;
 		this.range = range;
 		this.framesLeft = frames;
+		if (activeFrames.Length > 0)
+			recovery = initialFrames - activeFrames [activeFrames.Length - 1];
 	}
 }
 

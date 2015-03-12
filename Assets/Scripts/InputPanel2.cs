@@ -76,12 +76,13 @@ public class InputPanel2 : MonoBehaviour {
 
 
 	public void setBox(int index, MoveClass move){
-		print ("Setting!");
 		ImageSwitch (index, move.name);
 		if (move.name == "Air Attack") {
 			MoveClass temp = moveArray [index];
-			moveArray [index] = new MoveClass (temp.name + " AA", temp.initialFrames + 1, new int[2] {temp.framesLeft, temp.framesLeft + 1}, move.hitStun,
-			                                  move.bStun, move.priority, move.range, move.dmg, move.kB, temp.framesLeft+1);
+			moveArray [index] = new MoveClass (temp.name + " AA", temp.initialFrames + 1, new int[2] {(temp.initialFrames - temp.framesLeft +1), (temp.initialFrames - temp.framesLeft+2) },
+			move.hitStun, move.bStun, move.priority, move.range, move.dmg, move.kB, temp.framesLeft+1);
+			print("Current frame is " + (temp.initialFrames - temp.framesLeft) + " of " + (temp.initialFrames+1) + " initial and " + (temp.framesLeft+1) + " current.");
+
 		} else
 			moveArray [index] = move;
 
@@ -98,7 +99,6 @@ public class InputPanel2 : MonoBehaviour {
 				}
 				else //Breaks if an interactable button is found
 					i = 3;}
-			print(moveArray.Length);
 		}
 
 		//The submit button is only accessable if all buttons are set
@@ -108,7 +108,6 @@ public class InputPanel2 : MonoBehaviour {
 	}
 
 	public void setBox(int index, MoveClass move, bool isFirstBlockofNewTurn){
-		print ("Setting!");
 		ImageSwitch (index, move.name);
 		moveArray [index] = move;
 		if(isFirstBlockofNewTurn)
@@ -127,7 +126,6 @@ public class InputPanel2 : MonoBehaviour {
 				}
 				else //Breaks if an interactable button is found
 					i = 3;}
-			print(moveArray.Length);
 		}
 		
 		//The submit button is only accessable if all buttons are set
@@ -193,7 +191,7 @@ public class InputPanel2 : MonoBehaviour {
 			}
 		}
 	
-	public void registerHit (HitClass hit)
+	public void registerHit (MoveClass hit)
 	{
 		HitQueue.Enqueue (hit);
 	}
@@ -204,32 +202,38 @@ public class InputPanel2 : MonoBehaviour {
 
 		while(HitQueue.Count > 0){
 			FrankController victim = null;
-			HitClass hit = (HitClass)HitQueue.Dequeue();
+			MoveClass hit = (MoveClass)HitQueue.Dequeue();
+			print (hit.name);
+			print((hit.recovery) + " is the length of recovery.");
 			if((hit.playerID+1) % 2 == 0)
 				victim = adam;
 			if((hit.playerID+1) % 2 == 1)
 				victim = eve;
-			//players [hit.playerID].Clear ();
-			Debug.Log (victim.playerID + " was hit");
+
+
+			victim.takeHit (hit);
+		/*	Debug.Log (victim.playerID + " was hit");
 			if (victim.blocking && hit.bStun != -10) { // block chunk
-				victim.takeHit (hit.kB);
+				float instantKnockback = hit.kB*(hit.recovery / (hit.recovery + hit.bStun));
+				victim.takeHit (instantKnockback, hit);
 				victim.addMove(new MoveClass("Defend", hit.bStun, new int[0], 0, 0, 0, 0, 0, 0));
 					Debug.Log("Defend queued");
 			}
 
 			if (!victim.blocking || hit.bStun == -10) { //hit chunk - if not blocking or if thrown
 				Debug.Log("Hit reported");
-				victim.takeHit (hit.kB, hit.dmg); //deal damage to victim
+				float instantKnockback = hit.kB*(hit.recovery / (hit.recovery + hit.hitStun));
+				victim.takeHit (hit, instantKnockback); //deal damage to victim
 				if (hit.kB == -1) { //if a character is knocked down
 					victim.addMove(new MoveClass("Knocked Down", 6, new int[0], 0, 0, 0, 0, 0, 0)); //queue knockdown
 					Debug.Log("KD queued");	
 				} 
 
 				if(hit.kB >= 0) {	//queue hit turns
-						victim.addMove (new MoveClass("Hit", hit.hitstun, new int[0], 0,0,0,0,0,0));
+						victim.addMove (new MoveClass("Hit", hit.hitStun, new int[0], 0,0,0,0,0,0));
 						Debug.Log("Hit queued.");
 					}
-			} //hit chunk ends
+			} //hit chunk ends */
 		}
 		executionPhase = false;
 		print ("Player one health: " + adam.getHealth() + " || Player two health: " + eve.getHealth());

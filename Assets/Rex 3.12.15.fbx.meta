@@ -1,0 +1,1844 @@
+fileFormatVersion: 2
+guid: 4ef0bbf269f3e42878af5f48e6d5234b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+    100002: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+    100004: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+    100006: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+    100008: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+    100010: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+    100012: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+    100014: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+    100016: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+    100018: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+    100020: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+    100022: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+    100024: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+    100026: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+    100028: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+    100030: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+    100032: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+    100034: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+    100036: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+    100038: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+    100040: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+    100042: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+    100044: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+    100046: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+    100048: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+    100050: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+    100052: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+    100054: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+    100056: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+    100058: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+    100060: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+    100062: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+    100064: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+    100066: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+    100068: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+    100070: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+    100072: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+    100074: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+    100076: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+    100078: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+    100080: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+    100082: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+    100084: //RootNode
+    400000: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+    400002: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+    400004: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+    400006: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+    400008: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+    400010: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+    400012: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+    400014: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+    400016: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+    400018: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+    400020: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+    400022: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+    400024: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+    400026: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+    400028: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+    400030: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+    400032: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+    400034: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+    400036: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+    400038: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+    400040: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+    400042: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+    400044: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+    400046: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+    400048: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+    400050: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+    400052: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+    400054: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+    400056: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+    400058: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+    400060: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+    400062: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+    400064: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+    400066: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+    400068: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+    400070: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+    400072: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+    400074: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+    400076: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+    400078: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+    400080: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+    400082: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+    400084: //RootNode
+    4300000: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+    7400000: Idle
+    7400002: DashStart
+    7400004: Dash
+    7400006: DashEnd
+    7400008: Jump
+    7400010: DefendStart
+    7400012: DefendFreeze
+    7400014: DefendEnd
+    7400016: DashAttack
+    7400018: Jab
+    7400020: Heavy
+    7400022: GuardBreak
+    7400024: Hit
+    7400026: Lose
+    7400028: Win
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DashStart
+      takeName: Take 001
+      firstFrame: 23
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dash
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DashEnd
+      takeName: Take 001
+      firstFrame: 54
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 72
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DefendStart
+      takeName: Take 001
+      firstFrame: 104
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DefendFreeze
+      takeName: Take 001
+      firstFrame: 122
+      lastFrame: 122.099998
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DefendEnd
+      takeName: Take 001
+      firstFrame: 123
+      lastFrame: 137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DashAttack
+      takeName: Take 001
+      firstFrame: 237
+      lastFrame: 279
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jab
+      takeName: Take 001
+      firstFrame: 138
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Heavy
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GuardBreak
+      takeName: Take 001
+      firstFrame: 196
+      lastFrame: 236
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 296
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lose
+      takeName: Take 001
+      firstFrame: 297
+      lastFrame: 316
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Win
+      takeName: Take 001
+      firstFrame: 72
+      lastFrame: 103
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawLowEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Head_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUp_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_JawUpEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_LToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LLeg_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LKnee_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_LFoot_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToebase_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeMid_JT1/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_L_RToeEnd_JT1
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RFingEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RArm_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RElbow_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RWrist_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_RThumbEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Body_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailBase_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailMid_JT/Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_TailEnd_JT
+        weight: 1
+      - path: Fighter_Rex_Rig_Draft1_15_rigdone_:Rex_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
