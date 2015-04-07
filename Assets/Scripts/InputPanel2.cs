@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class InputPanel2 : MonoBehaviour {
 
-	public FrankController adam;
+	public RexController adam;
 	public Texture devo;
-	public FrankController eve;
+	public SpeedyController eve;
 	public Texture cartesian;
 	private int turn = 0;
 	public Button[] buttonArray;
@@ -27,6 +27,7 @@ public class InputPanel2 : MonoBehaviour {
 	private GUITexture blackout;
 	private bool started, movelistUp, gameOver, turnSwitch;
 	public bool executionPhase { get; set; }
+	public TutorialController tutorialpanel;
 
 
 
@@ -72,6 +73,10 @@ public class InputPanel2 : MonoBehaviour {
 
 	public void setAirAttack(int i){
 		airAttackOK [i] = true;
+	}
+
+	public int getPlayerTurn(){
+		return turn % 2;
 	}
 
 
@@ -171,17 +176,20 @@ public class InputPanel2 : MonoBehaviour {
 				print("Queuing " + move.name + " for eve");}
 		}
 		moveArray = new MoveClass[]{null, null, null};
-
+			adam.StartAnimations();
+			eve.StartAnimations();
 				for (int n = 0; n < 3; n++) {
 						if(executionPhase){
 					adam.takeMove ();	
 					eve.takeMove ();
-					yield return new WaitForSeconds (0.5f);	
+				yield return new WaitForSeconds (0.5f);	
 					if (HitQueue.Count > 0)
 						playHits ();
 				}
 					}
-
+			adam.StopAnimations();
+			eve.StopAnimations();
+			
 			ImageClear(0);
 			ImageClear(1);
 			ImageClear (2);
@@ -193,7 +201,12 @@ public class InputPanel2 : MonoBehaviour {
 	
 	public void registerHit (MoveClass hit)
 	{
+		if(hit.playerID == 0)
+			if(eve.wasHit())
 		HitQueue.Enqueue (hit);
+		if(hit.playerID == 1)
+			if(eve.wasHit())
+				HitQueue.Enqueue (hit);
 	}
 
 	private void playHits(){
@@ -201,17 +214,18 @@ public class InputPanel2 : MonoBehaviour {
 			eve.ClearStates ();
 
 		while(HitQueue.Count > 0){
-			FrankController victim = null;
 			MoveClass hit = (MoveClass)HitQueue.Dequeue();
 			print (hit.name);
 			print((hit.recovery) + " is the length of recovery.");
 			if((hit.playerID+1) % 2 == 0)
-				victim = adam;
+				adam.takeHit(hit);
 			if((hit.playerID+1) % 2 == 1)
-				victim = eve;
+				eve.takeHit(hit);
 
+/*			tutorialpanel.e="hit";
+			tutorialpanel.showPanel();
+			tutorialpanel.firstHit=false;*/
 
-			victim.takeHit (hit);
 		/*	Debug.Log (victim.playerID + " was hit");
 			if (victim.blocking && hit.bStun != -10) { // block chunk
 				float instantKnockback = hit.kB*(hit.recovery / (hit.recovery + hit.bStun));
@@ -244,6 +258,7 @@ public class InputPanel2 : MonoBehaviour {
 		buttonArrayText [index].text = "_";
 		buttonArray [index].interactable = true;
 		buttonArrayImage [index].sprite = spriteLibrary [14];
+		buttonArrayImage [index].color = Color.white;
 	}
 
 	public MoveClass MoveAt(int index){
@@ -258,6 +273,7 @@ public class InputPanel2 : MonoBehaviour {
 	private void ImageSwitch(int index, string name){
 		//Clears text field
 		buttonArrayText [index].text = "";
+		buttonArrayImage [index].color = Color.white;
 
 		//Assigns appropriate icon to button
 		switch (name) {
@@ -266,12 +282,33 @@ public class InputPanel2 : MonoBehaviour {
 		case "Knocked Down":
 		case "Hit":
 		case "Dino-Punch":
-		case "Throw":
-		case "Defend":
+		case "Tyrant Smash":
 			buttonArrayText[index].text = name;
 			buttonArrayImage [index].sprite = spriteLibrary [14];
 			break;
 
+		case "Throw":
+			buttonArrayImage [index].sprite = spriteLibrary [15];
+			break;
+
+		case "SPD":
+			buttonArrayImage [index].sprite = spriteLibrary [15];
+			buttonArrayImage [index].color = new Color32 (255, 139, 139, 255);
+			break;
+
+		case "Dash Peck":
+				buttonArrayImage [index].sprite = spriteLibrary [7];
+				buttonArrayImage [index].color = new Color32 (255, 139, 139, 255);
+				break;
+
+		case "Divekick":
+			buttonArrayImage [index].sprite = spriteLibrary [6];
+			buttonArrayImage [index].color = new Color32 (255, 139, 139, 255);
+			break;
+
+		case "Defend":
+			buttonArrayImage [index].sprite = spriteLibrary [16];
+			break;
 			
 		case "Light Attack":
 			buttonArrayImage [index].sprite = spriteLibrary [0];

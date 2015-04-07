@@ -2,20 +2,22 @@
 using System.Collections;
 
 public class HitboxScript : MonoBehaviour {
-	public FrankController myDad;
-	public FrankController enemy;
-	private int playerID;
+	public GameObject enemy;
+	public int playerID;
 	private bool trigger;
 	private bool armed;
 	private MoveClass thisMove;
 	private InputPanel2 controlPanel;
+	public AudioSource[] audioClips;
 	
 	public void SetHitBox(MoveClass move){ //general setter}
 		thisMove = new MoveClass(move);
 		thisMove.playerID = this.playerID;
-		transform.localScale = new Vector3 (thisMove.range, 1f, .5f);
+		transform.localScale = new Vector3 (thisMove.range, .2f, .5f);
 		transform.localPosition = (new Vector3(1-(thisMove.range/2), 0));
 		armed = true;
+		int rand = (int)Random.Range (0f, 2f);
+		audioClips [rand].Play ();
 		}
 
 /*	public void SetHitBox(MoveClass move){
@@ -31,12 +33,11 @@ public class HitboxScript : MonoBehaviour {
 		if (x.name == enemy.name || x.name == "hitbox") {
 			trigger = true;
 			if(armed){
-			Debug.Log("Collision occurred - " + x.name + " by " + myDad.name);
+			Debug.Log("Collision occurred - " + x.name + " on " + enemy.name);
 			triggerCheck(thisMove);
 				armed = false;}
 				}
-		if (x.name != myDad.name) {
-		}
+
 		//Debug.Log("Collision detected by " + myDad.name);
 	}
 
@@ -49,8 +50,8 @@ public class HitboxScript : MonoBehaviour {
 	public bool triggerCheck(MoveClass hit){
 		if (trigger == true) {
 			Debug.Log("Sending move");
-			if(enemy.wasHit())
 			controlPanel.registerHit (hit); // reports move to ControlPanel
+			audioClips[2].Play();
 			ClearBox();
 			return true;
 		}	
@@ -60,8 +61,6 @@ public class HitboxScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		armed = false;
-		myDad = GetComponentInParent<FrankController> ();
-		playerID = myDad.GetPlayerID();
 		controlPanel = FindObjectOfType<InputPanel2> ();
 	}
 

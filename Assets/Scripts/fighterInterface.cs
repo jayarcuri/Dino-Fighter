@@ -6,9 +6,9 @@ public interface fighterInterface
 
 	void addMove(string move);
 	void takeMove();
-	void hit (int damage);
+	void takeHit (int damage);
 	bool hasNext();
-	string getMove(int index);
+	void wasHit();
 
 
 }

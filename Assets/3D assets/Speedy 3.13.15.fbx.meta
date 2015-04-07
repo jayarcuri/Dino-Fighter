@@ -119,9 +119,9 @@ ModelImporter:
     400112: //RootNode
     4300000: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
     7400000: Idle
-    7400002: RunStart
-    7400004: Run
-    7400006: RunEnd
+    7400002: DashStart
+    7400004: Dash
+    7400006: DashEnd
     7400008: Jump
     7400010: DefendStart
     7400012: DefendFreeze
@@ -133,6 +133,14 @@ ModelImporter:
     7400024: Hit
     7400026: Lose
     7400028: Win
+    7400030: DashAttackOnly
+    7400032: HitFreeze
+    7400034: JumpFreeze
+    7400036: DivePeck
+    7400038: JumpMiddle
+    7400040: JumpStart
+    7400042: JumpEnd
+    7400044: Medium
     9500000: //RootNode
     11100000: //RootNode
     13700000: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
@@ -157,7 +165,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1
       lastFrame: 22
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -294,9 +302,9 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: RunStart
+      name: DashStart
       takeName: Take 001
-      firstFrame: 24
+      firstFrame: 28
       lastFrame: 34
       wrapMode: 0
       orientationOffsetY: 0
@@ -435,7 +443,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Run
+      name: Dash
       takeName: Take 001
       firstFrame: 35
       lastFrame: 51
@@ -576,151 +584,10 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: RunEnd
+      name: DashEnd
       takeName: Take 001
       firstFrame: 54
       lastFrame: 67
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
-          1
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
-        weight: 1
-      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Jump
-      takeName: Take 001
-      firstFrame: 68
-      lastFrame: 106
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1003,7 +870,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 121
       lastFrame: 121.099998
-      wrapMode: 0
+      wrapMode: 8
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1990,7 +1857,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 347
       lastFrame: 369
-      wrapMode: 0
+      wrapMode: 8
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -2132,6 +1999,1134 @@ ModelImporter:
       firstFrame: 370
       lastFrame: 408
       wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DashAttackOnly
+      takeName: Take 001
+      firstFrame: 271
+      lastFrame: 326
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HitFreeze
+      takeName: Take 001
+      firstFrame: 331
+      lastFrame: 331.100006
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpFreeze
+      takeName: Take 001
+      firstFrame: 89
+      lastFrame: 89.0999985
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DivePeck
+      takeName: Take 001
+      firstFrame: 307
+      lastFrame: 314
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpMiddle
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpStart
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpEnd
+      takeName: Take 001
+      firstFrame: 94
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Fighter_Speedy_Draft2_UVs_Done:Fighter_Speedy_UV_Draft2_UVDone:polySurface2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Beak_Top
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Neckbottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_NeckMid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Head/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Bottom/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_HeadRed_Mid1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow2/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Elbow/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingL_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather4_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow3/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather5_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather2_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Chest/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Shoulder/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Elbow1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_WingR_Feather3_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_base1/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegL_LegR_Mid
+          1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Backtoe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Thigh/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Knee/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_Foot/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_LegR_LToe_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_EndFeather1
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip
+        weight: 1
+      - path: Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Body/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Base/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Mid/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_MidEnd/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_Tip/Fighter_Speedy_Draft2_Rig_17_rigdone_:Speedy_JT_Tail_TipEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Medium
+      takeName: Take 001
+      firstFrame: 305
+      lastFrame: 326
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

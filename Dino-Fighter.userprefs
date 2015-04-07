@@ -1,6 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../C# Files/Burst.cs">
+    <Files>
+      <File FileName="../C# Files/Move.cs" Line="5" Column="56" />
+      <File FileName="../C# Files/Attack.cs" Line="2" Column="1" />
+      <File FileName="../C# Files/Character.cs" Line="44" Column="41" />
+      <File FileName="../C# Files/Throw.cs" Line="14" Column="3" />
+      <File FileName="../C# Files/Defend.cs" Line="1" Column="1" />
+      <File FileName="../C# Files/Dodge.cs" Line="1" Column="1" />
+      <File FileName="../C# Files/Burst.cs" Line="22" Column="3" />
+      <File FileName="../C# Files/KyoryuSuper.cs" Line="10" Column="41" />
+      <File FileName="../C# Files/KyoryuCharacter.cs" Line="5" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

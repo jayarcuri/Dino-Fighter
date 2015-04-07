@@ -237,7 +237,7 @@ public class FrankController : MonoBehaviour/*, fighterInterface*/
 				if (myBall != null)
 					myBall.nextMove ();
 		transform.position = new Vector3 (Mathf.Clamp (transform.localPosition.x, -5.874f, 5.874f), 
-		                                 transform.localPosition.y, transform.localPosition.z);
+		                                  Mathf.Clamp (transform.localPosition.y, 1.04f, 4f), transform.localPosition.z);
 		if (moveQueue [0].framesLeft == 0)
 			moveQueue.RemoveAt (0);
 	}

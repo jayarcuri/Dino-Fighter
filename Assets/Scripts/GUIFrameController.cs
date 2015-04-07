@@ -39,14 +39,25 @@ public class GUIFrameController : MonoBehaviour {
 			case "Jump Right":
 			movementButton.interactable = defendButton.interactable 
 				= false;
-					attackPanelChoices[0].SetActive (false);
-			attackMenu.childPanel = attackPanelChoices[1];
+					attackMenu.Deactivate();
+			
+			if(controlPanel.getPlayerTurn() == 0){
+				attackMenu.childPanel = attackPanelChoices[2];}
+
+			
+			if(controlPanel.getPlayerTurn() == 1){
+				attackMenu.childPanel = attackPanelChoices[3];}
+
 			break;
 
 		default:
 			movementButton.interactable = defendButton.interactable 
 				= true;
+			attackMenu.Deactivate();
+			if(controlPanel.getPlayerTurn() == 0)
 			attackMenu.childPanel = attackPanelChoices[0];
+			if(controlPanel.getPlayerTurn() == 1)
+				attackMenu.childPanel = attackPanelChoices[1];
 			break;
 
 		}
@@ -62,7 +73,7 @@ public class GUIFrameController : MonoBehaviour {
 	
 	public void ReportMove(){ 
 		controlPanel.setBox (ForMoveBlock, new MoveClass(currentMove)); //Creates deep copy of currentMove for character
-																	//so the original is not corrupted
+																		//so the original is not corrupted
 	}
 	
 }
