@@ -1,3 +1,6 @@
 lastUpgrade=00915
 proj.AppId=36209717440
 android.SetupDone=true
+ios.ClientId=36209717440-a5k6n8f414m1cgl08qd8fc2gvoqouoal.apps.googleusercontent.com
+ios.BundleId=systems.obscure.dinofight
+ios.SetupDone=true
